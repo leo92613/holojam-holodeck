@@ -852,7 +852,7 @@ GameObject:
   - 114: {fileID: 402693528}
   - 114: {fileID: 402693527}
   m_Layer: 0
-  m_Name: '[2] Green'
+  m_Name: '[2] Green (Build)'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1125,6 +1125,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackingTag: 21
   localSpace: 0
+--- !u!1 &481078390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481078391}
+  - 114: {fileID: 481078392}
+  m_Layer: 0
+  m_Name: AssignActor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481078391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 481078390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27309835, y: 0.037592888, z: 0.8680022}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+--- !u!114 &481078392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 481078390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a07a4f45cb67845b387b941bd0adb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &481577440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,7 +1781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &604503508
 Transform:
   m_ObjectHideFlags: 0
@@ -1979,7 +2019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &678062395
 Transform:
   m_ObjectHideFlags: 0
@@ -2266,7 +2306,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 828169414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17999999, y: 0, z: -0.000000021457673}
+  m_LocalPosition: {x: 0.18, y: 0, z: -0.000000021457673}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -2381,7 +2421,7 @@ GameObject:
   - 114: {fileID: 829022344}
   - 114: {fileID: 829022342}
   m_Layer: 0
-  m_Name: '[1] Blue (Build)'
+  m_Name: '[1] Blue'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2411,7 +2451,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 829022341}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.52, y: 0.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -3005,6 +3045,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   label: Messenger
   isMine: 1
+--- !u!1 &964410369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 964410371}
+  - 114: {fileID: 964410370}
+  m_Layer: 0
+  m_Name: Teleprompter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &964410370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964410369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b123eeb5ad644387d908784c3cdf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Textfile: {fileID: 4900000, guid: 0fa5118194877c948b9e7a1c053afa11, type: 3}
+  lines:
+  - "Hey Wenbo,\r"
+  - "It\u2019s that creepy, crawly season again, and everyone knows where the monsters
+    are hanging out. Under the bed. In the abandoned mineshaft.\r"
+  - "And\u2026on your credit report? Yep, they could be there too.\r"
+  - "Maybe it\u2019s an accidental missed payment, draining your score like a credit-thirsty
+    vampire. Or maybe it\u2019s an account you didn\u2019t actually open, peeking
+    its head out like a trouble-making goblin.\r"
+  - "But you\u2019re tough enough to fight them off, Wenbo. You\u2019re doing a great
+    job of checking in, and your score's been looking awesome. Keep it up!"
+  Vcon: {fileID: 1744484911}
+--- !u!4 &964410371
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964410369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5770073, y: 2.9040442, z: 3.1989307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
 --- !u!1001 &986898941
 Prefab:
   m_ObjectHideFlags: 0
@@ -3071,7 +3163,7 @@ Prefab:
     - target: {fileID: 11408398, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
       propertyPath: ba
       value: 
-      objectReference: {fileID: 829022342}
+      objectReference: {fileID: 402693527}
     - target: {fileID: 11478342, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
       propertyPath: actor
       value: 
@@ -3079,7 +3171,7 @@ Prefab:
         type: 2}
     - target: {fileID: 11408398, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
       propertyPath: buildTag
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11478342, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
       propertyPath: groundPlane
@@ -3092,6 +3184,10 @@ Prefab:
     - target: {fileID: 11478342, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
       propertyPath: amount
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408398, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
+      propertyPath: runtimeIndexing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9913052dcc5c420bb3eedbe8c266ee0, type: 2}
@@ -3554,7 +3650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1251607000
 GameObject:
   m_ObjectHideFlags: 0
@@ -4550,7 +4646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1581171217
 Transform:
   m_ObjectHideFlags: 0
@@ -4953,6 +5049,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744385485}
   m_Mesh: {fileID: 4300000, guid: 6a6ba5149516642b486bc8bcea71a2bf, type: 3}
+--- !u!114 &1744484911 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11404100, guid: 00eab73f3106343c08a3ac44709e850c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1762492022}
+  m_Script: {fileID: 11500000, guid: 89b2e0d10db364d07999f06af130cdc5, type: 3}
 --- !u!1 &1747600428
 GameObject:
   m_ObjectHideFlags: 0
@@ -5107,7 +5209,19 @@ Prefab:
     - target: {fileID: 11414520, guid: 00eab73f3106343c08a3ac44709e850c, type: 2}
       propertyPath: actor
       value: 
-      objectReference: {fileID: 829022342}
+      objectReference: {fileID: 402693527}
+    - target: {fileID: 11414520, guid: 00eab73f3106343c08a3ac44709e850c, type: 2}
+      propertyPath: trackingType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10266508, guid: 00eab73f3106343c08a3ac44709e850c, type: 2}
+      propertyPath: m_FontSize
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 10266508, guid: 00eab73f3106343c08a3ac44709e850c, type: 2}
+      propertyPath: m_TabSize
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 00eab73f3106343c08a3ac44709e850c, type: 2}
   m_IsPrefabParent: 0
@@ -5194,7 +5308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1807101398
 Transform:
   m_ObjectHideFlags: 0
@@ -5739,7 +5853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2037244574
 Transform:
   m_ObjectHideFlags: 0

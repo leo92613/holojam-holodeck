@@ -23,7 +23,7 @@ namespace Holojam.Tools{
 		
 		// Update is called once per frame
 		public void FixedUpdate () {
-			toggleDisplay ();
+			//toggleDisplay ();
 			printFreshStrings();
 			reformat ();
 		}
@@ -40,11 +40,11 @@ namespace Holojam.Tools{
 			freshStrings = "";
 		}
 
-		private void toggleDisplay() {
-			if (Input.GetKeyDown (KeyCode.Mouse0)) {
-				getConsole ().GetComponent<Renderer> ().enabled = !getConsole ().GetComponent<Renderer> ().enabled;
-			}
-		}
+		//private void toggleDisplay() {
+			//if (Input.GetKeyDown (KeyCode.Mouse0)) {
+			//	getConsole ().GetComponent<Renderer> ().enabled = !getConsole ().GetComponent<Renderer> ().enabled;
+			//}
+		//}
 
 		private TextMesh getConsole() {
 			return gameObject.GetComponent<TextMesh> ();
@@ -54,7 +54,7 @@ namespace Holojam.Tools{
 			return getConsole ().text;
 		}
 
-		private void setText(string s) {
+		public void setText(string s) {
 			getConsole ().text = s;
 		}
 
