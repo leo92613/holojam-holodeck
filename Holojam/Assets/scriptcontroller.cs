@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using System.Text.RegularExpressions;
+
 
 namespace Holojam.Tools
 {
@@ -12,12 +14,10 @@ namespace Holojam.Tools
         [SerializeField]
         private VRConsole Vcon;
         private int cursor = 0;
-        private string bufferstring;
 
         // Use this for initialization
         void Start()
         {
-            bufferstring = null;
             Vcon = GameObject.Find("VRConsole").GetComponent<VRConsole>();
             lines = Textfile.text.Split('\n');
         }
@@ -27,9 +27,13 @@ namespace Holojam.Tools
         {
 
             if (Input.GetKeyDown(KeyCode.Mouse0))
+            //if (Input.GetKeyDown("space"))
             {
-
-                Vcon.setText(bufferstring);
+                GameObject.Find("VRConsole").GetComponent<MeshRenderer>().enabled = true;
+                if (cursor + 1 < lines.Length)
+                    Vcon.setText(String.Concat(lines[cursor], '\n', lines[++cursor]));
+                else
+                    Vcon.setText(lines[cursor]);
             }
             }
         }

@@ -3075,14 +3075,10 @@ MonoBehaviour:
   Textfile: {fileID: 4900000, guid: 0fa5118194877c948b9e7a1c053afa11, type: 3}
   lines:
   - "Hey Wenbo,\r"
-  - "It\u2019s that creepy, crawly season again, and everyone knows where the monsters
-    are hanging out. Under the bed. In the abandoned mineshaft.\r"
-  - "And\u2026on your credit report? Yep, they could be there too.\r"
-  - "Maybe it\u2019s an accidental missed payment, draining your score like a credit-thirsty
-    vampire. Or maybe it\u2019s an account you didn\u2019t actually open, peeking
-    its head out like a trouble-making goblin.\r"
-  - "But you\u2019re tough enough to fight them off, Wenbo. You\u2019re doing a great
-    job of checking in, and your score's been looking awesome. Keep it up!"
+  - "It\u2019s that creepy,\r"
+  - "And\u2026on your credit report?\r"
+  - "Maybe it\u2019s an accidental missed payment\r"
+  - "But you\u2019re tough enough to fight them off"
   Vcon: {fileID: 1744484911}
 --- !u!4 &964410371
 Transform:
