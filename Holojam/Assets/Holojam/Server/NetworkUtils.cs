@@ -83,7 +83,7 @@ namespace Holojam.Network {
 			LEFTHAND3, RIGHTHAND3, LEFTFOOT3, RIGHTFOOT3,
 			LEFTHAND4, RIGHTHAND4, LEFTFOOT4, RIGHTFOOT4,
 			LAPTOP, TABLE,
-			VIVE,VIVECONTROLLERLEFT,VIVECONTROLLERRIGHT
+			VIVE,VIVECONTROLLERLEFT,VIVECONTROLLERRIGHT,CONTROLLER1
 		}
 		
 		private static readonly Dictionary<Tag, string> tagNames = new Dictionary<Tag, string>() {
@@ -116,7 +116,8 @@ namespace Holojam.Network {
 			{ Tag.TABLE, "VR1_table"},
 			{ Tag.VIVE, "vive"},
 			{ Tag.VIVECONTROLLERLEFT, "vive_controller_left"},
-			{ Tag.VIVECONTROLLERRIGHT, "vive_controller_right"}
+			{ Tag.VIVECONTROLLERRIGHT, "vive_controller_right"},
+            { Tag.CONTROLLER1, "controller01" }
 		};
 		
 		public static string GetName(Tag tag) {
