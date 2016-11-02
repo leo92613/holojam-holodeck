@@ -83,7 +83,7 @@ namespace Holojam.Network {
 			LEFTHAND3, RIGHTHAND3, LEFTFOOT3, RIGHTFOOT3,
 			LEFTHAND4, RIGHTHAND4, LEFTFOOT4, RIGHTFOOT4,
 			LAPTOP, TABLE,
-			VIVE,VIVECONTROLLERLEFT,VIVECONTROLLERRIGHT,CONTROLLER1
+			VIVE,VIVECONTROLLERLEFT,VIVECONTROLLERRIGHT
 		}
 		
 		private static readonly Dictionary<Tag, string> tagNames = new Dictionary<Tag, string>() {
@@ -116,8 +116,8 @@ namespace Holojam.Network {
 			{ Tag.TABLE, "VR1_table"},
 			{ Tag.VIVE, "vive"},
 			{ Tag.VIVECONTROLLERLEFT, "vive_controller_left"},
-			{ Tag.VIVECONTROLLERRIGHT, "vive_controller_right"},
-            { Tag.CONTROLLER1, "controller01" }
+			{ Tag.VIVECONTROLLERRIGHT, "vive_controller_right"}
+
 		};
 		
 		public static string GetName(Tag tag) {
@@ -129,4 +129,78 @@ namespace Holojam.Network {
 		}
 		public static int tagCount{get{return Enum.GetNames(typeof(Tag)).Length;}}
 	}
+    public class Furniture
+    {
+
+        public enum Tag
+        {
+                FURNITURE1,FURNITURE2, FURNITURE3, FURNITURE4, FURNITURE5, FURNITURE6, FURNITURE7, FURNITURE8, FURNITURE9, FURNITURE10,
+            FURNITURE11, FURNITURE12, FURNITURE13, FURNITURE14, FURNITURE15, FURNITURE16, FURNITURE17, FURNITURE18, FURNITURE19, FURNITURE20
+        }
+
+        private static readonly Dictionary<Tag, string> tagNames = new Dictionary<Tag, string>() {
+            { Tag.FURNITURE1,"furniture1" },
+            { Tag.FURNITURE2,"furniture2" },
+            { Tag.FURNITURE3,"furniture3" },
+            { Tag.FURNITURE4,"furniture4" },
+            { Tag.FURNITURE5,"furniture5" },
+            { Tag.FURNITURE6,"furniture6" },
+            { Tag.FURNITURE7,"furniture7" },
+            { Tag.FURNITURE8,"furniture8" },
+            { Tag.FURNITURE9,"furniture9" },
+            { Tag.FURNITURE10,"furniture10" },
+            { Tag.FURNITURE11,"furniture11" },
+            { Tag.FURNITURE12,"furniture12" },
+            { Tag.FURNITURE13,"furniture13" },
+            { Tag.FURNITURE14,"furniture14" },
+            { Tag.FURNITURE15,"furniture15" },
+            { Tag.FURNITURE16,"furniture16" },
+            { Tag.FURNITURE17,"furniture17" },
+            { Tag.FURNITURE18,"furniture18" },
+            { Tag.FURNITURE19,"furniture19" },
+            { Tag.FURNITURE20,"furniture20" },
+        };
+
+        public static string GetName(Tag tag)
+        {
+            if (tagNames.ContainsKey(tag))
+            {
+                return tagNames[tag];
+            }
+            else
+            {
+                throw new System.ArgumentException("Illegal tag.");
+            }
+        }
+        public static int tagCount { get { return Enum.GetNames(typeof(Tag)).Length; } }
+    }
+
+    public class Pcontroller
+    {
+
+        public enum Tag
+        {
+            PHONECONTROLLER1, PHONECONTROLLER2, PHONECONTROLLER3, PHONECONTROLLER4
+        }
+
+        private static readonly Dictionary<Tag, string> tagNames = new Dictionary<Tag, string>() {
+            {Tag.PHONECONTROLLER1,"controller0" },
+            {Tag.PHONECONTROLLER2,"controller1" },
+            {Tag.PHONECONTROLLER3,"controller2" },
+            {Tag.PHONECONTROLLER4,"controller3" },
+        };
+
+        public static string GetName(Tag tag)
+        {
+            if (tagNames.ContainsKey(tag))
+            {
+                return tagNames[tag];
+            }
+            else
+            {
+                throw new System.ArgumentException("Illegal tag.");
+            }
+        }
+        public static int tagCount { get { return Enum.GetNames(typeof(Tag)).Length; } }
+    }
 }
