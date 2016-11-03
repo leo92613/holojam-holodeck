@@ -58,6 +58,10 @@ namespace Holojam.Tools{
 			getConsole ().text = s;
 		}
 
+		public void setColor(Vector4 newcolor){
+			getConsole ().color = newcolor;
+		}
+
 		void clearConsole () {
 			setText ("");
 		}
