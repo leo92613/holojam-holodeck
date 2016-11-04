@@ -3098,37 +3098,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b123eeb5ad644387d908784c3cdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Textfile: {fileID: 4900000, guid: f74b04268ff9e4565a9addc9275533e4, type: 3}
+  Textfile: {fileID: 4900000, guid: 796ba692327cd4013985500131e631bb, type: 3}
   lines:
-  - "GUY: In a moment it\u2019ll be my stop."
-  - "GAL: Don\u2019t you need to get ready to go?"
-  - "GUY: It\u2019s ok. I can get out at the next stop."
-  - "guy: I\u2019m really enjoying talking with you."
-  - 'GAL: Does that mean you want to hear'
-  - 'gal: the rest of my theory?'
-  - 'GUY: Definitely. You were talking about demons,'
-  - 'guy: and desire.'
-  - 'GAL: Yes. I think demons use desire as a way'
-  - "gal: to steal time. It\u2019s their power."
-  - "gal: People\u2019s lives generally move forward,"
-  - 'gal: until they meet their demon.'
-  - 'gal: The jealous demon takes that away.'
-  - 'GUY: Hmm. Like demon alcohol, right?'
-  - 'GAL: Exactly! The moment an alcoholic'
-  - 'gal: takes that first drink,'
-  - 'gal: life begins to stop moving forward.'
-  - "GUY: I see what you\u2019re saying. After that,"
-  - 'guy: all the alcoholic does'
-  - 'guy: is circle around that bottle.'
-  - 'guy: The demon wins.'
-  - 'GAL: You catch on quick.'
-  - 'gal: Have you studied philosophy?'
-  - 'GUY: No, but maybe I should.'
-  - 'guy: Oh wait, here we are.'
-  - "guy: In a moment it\u2019ll be my stop."
-  - "GAL: Don\u2019t you need to get ready to go?"
-  - "GUY: It\u2019s ok, I can get out at the next stop."
-  - "guy: I\u2019m really enjoying talking with you."
+  - "1GUY: In a moment it\u2019ll be my stop."
+  - "2GAL: Don\u2019t you need to get ready to go?"
+  - "1GUY: It\u2019s ok. I can get out at the next stop."
+  - "1     I\u2019m really enjoying talking with you."
+  - '2GAL: Does that mean you want to hear'
+  - 2     the rest of my theory?
+  - '1GUY: Definitely. You were talking about demons,'
+  - 1     and desire.
+  - '2GAL: Yes. I think demons use desire as a way'
+  - "2     to steal time. It\u2019s their power."
+  - "2     People\u2019s lives generally move forward,"
+  - 2     until they meet their demon.
+  - 2     The jealous demon takes that away.
+  - '1GUY: Hmm. Like demon alcohol, right?'
+  - '2GAL: Exactly! The moment an alcoholic'
+  - 2     takes that first drink,
+  - 2     life begins to stop moving forward.
+  - "1GUY: I see what you\u2019re saying. After that,"
+  - 1     all the alcoholic does
+  - 1     is circle around that bottle.
+  - 1     The demon wins.
+  - '2GAL: You catch on quick.'
+  - 2     Have you studied philosophy?
+  - '1GUY: No, but maybe I should.'
+  - 1     Oh wait, here we are.
+  - "1     In a moment it\u2019ll be my stop."
+  - "2GAL: Don\u2019t you need to get ready to go?"
+  - "1GUY: It\u2019s ok, I can get out at the next stop."
+  - "1     I\u2019m really enjoying talking with you."
   dis: 0
   dir: 0
   center: {fileID: 1477918056}
@@ -4039,7 +4039,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1314476096}
-  m_Text: "guy: I\u2019m really enjoying talking with you."
+  m_Text: "     I\u2019m really enjoying talking with you."
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -4052,7 +4052,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 16757632
 --- !u!23 &1314476099
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4090,7 +4090,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1314476096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -122.1, z: 0}
+  m_LocalPosition: {x: 0, y: -119, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -5001,7 +5001,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 10066431
 --- !u!23 &1613556830
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5039,7 +5039,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613556827}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -157.1, z: 0}
+  m_LocalPosition: {x: 0, y: -154, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6060,7 +6060,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 1778384895
+    rgba: 1946137472
 --- !u!23 &1944890190
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6098,7 +6098,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1944890187}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -87.1, z: 0}
+  m_LocalPosition: {x: 0, y: -84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6240,7 +6240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c9a102d7e3bd4083b9dd592d7635261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: controller2
+  label: controller1
   useMasterPC: 0
   sending: 0
   index: 0
@@ -6260,7 +6260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07c8d0dae549d14e8fe873ea4fff0b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: controller2
+  label: controller1
   isMine: 0
 --- !u!114 &2026492582 stripped
 MonoBehaviour:
@@ -6322,7 +6322,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4294947712
 --- !u!23 &2027603557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6360,7 +6360,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2027603554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -17.1, z: 0}
+  m_LocalPosition: {x: 0, y: -14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6641,7 +6641,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2086536620}
-  m_Text: 'gal: the rest of my theory?'
+  m_Text: '     the rest of my theory?'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -6654,7 +6654,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 10066431
 --- !u!23 &2086536623
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6692,7 +6692,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2086536620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -192.1, z: 0}
+  m_LocalPosition: {x: 0, y: -189, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -6851,7 +6851,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 222da2b5be4914f7aa9642225aa2a156, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 3539992575
+    rgba: 3667499519
 --- !u!23 &2140386306
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6889,7 +6889,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2140386303}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -52.1, z: 0}
+  m_LocalPosition: {x: 0, y: -49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []

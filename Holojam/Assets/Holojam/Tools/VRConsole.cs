@@ -50,7 +50,7 @@ namespace Holojam.Tools{
 			return gameObject.GetComponent<TextMesh> ();
 		}
 
-		private string getText() {
+		public string getText() {
 			return getConsole ().text;
 		}
 
@@ -60,6 +60,12 @@ namespace Holojam.Tools{
 
 		public void setColor(Vector4 newcolor){
 			getConsole ().color = newcolor;
+		}
+
+		public void setAlpha(float alpha){
+			Vector4 tmp = getConsole ().color;
+			tmp.w = alpha;
+			getConsole ().color = tmp;
 		}
 
 		void clearConsole () {
