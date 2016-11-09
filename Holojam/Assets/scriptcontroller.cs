@@ -32,7 +32,7 @@ namespace Holojam.Tools
 			top = 0;
 			bottom = 5;
 			previous = 0;
-			next = 6;
+			next = 5;
 			phonecontroller = GameObject.Find ("Controller").gameObject.GetComponent<Holojam.Tools.Phonecontroller> ();
 			lines = Textfile.text.Split ('\n');
 			for (int i = 0; i < 6; i++) {
@@ -53,7 +53,7 @@ namespace Holojam.Tools
 				if (origin == -2f)
 					origin = phonecontroller.y;
 				dis = phonecontroller.y - origin;
-				if (!( (previous == 0 && dis <0) || (next == lines.Length - 1 && dis >=0)))
+			if (!( (previous == 0 && dis <0) || (next == lines.Length - 1 && dis >=0)))
 				SetPos ();
 
 			} else {
@@ -75,7 +75,7 @@ namespace Holojam.Tools
 		{
 			for (int i = 0; i < 6; i++) {
 				Vcon [i].transform.localPosition += new Vector3 (0, dis * 80, 0);
-			}
+			}				
 			origin = phonecontroller.y;
 			if (Vcon [top].transform.localPosition.y > 105) {
 				Vcon [top].transform.localPosition = Vcon [bottom].transform.localPosition - _Reset;
@@ -102,6 +102,7 @@ namespace Holojam.Tools
 					if (next > 6)
 						previous++;
 				} else {
+					//if (!(previous == 0||next == lines.Length - 1))
 					Vcon [index].setText ("");
 					if (previous + 1 <= next)
 						previous++;
