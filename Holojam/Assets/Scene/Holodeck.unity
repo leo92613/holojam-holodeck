@@ -4403,7 +4403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   label: MasterManager
   useMasterPC: 0
-  sending: 1
+  sending: 0
   clientInt: 0
   masterDis: 0
   masterMode: -1
@@ -4421,7 +4421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: MasterManager
-  isMine: 1
+  isMine: 0
 --- !u!4 &1382025790
 Transform:
   m_ObjectHideFlags: 0
