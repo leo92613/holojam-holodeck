@@ -1,5 +1,5 @@
-﻿//Synchronizable.cs
-//Created by Aaron C Gaudette on 11.07.16
+﻿//Phonecontroller.cs
+//Created by Wenbo Lan on 24.10.16
 
 using UnityEngine;
 using Holojam.Network;

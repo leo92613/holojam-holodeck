@@ -20,6 +20,7 @@ public class ChosenHeadsetAssign : MonoBehaviour
         {
             headset = GameObject.Find("ChosenHeadset").gameObject.GetComponent<ChosenHeadset>();
 			phonecontroller.label = controllertags [headset.headsetInt - 1];
+			phonecontroller.index = headset.headsetInt;
             manager.buildTag = headset.whichHeadset;
             manager.reindex = true;
         }
