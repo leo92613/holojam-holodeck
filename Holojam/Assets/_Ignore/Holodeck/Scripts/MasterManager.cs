@@ -27,7 +27,9 @@ namespace Holojam.Tools
 
 		void Client ()
 		{
+			//transform.position = synchronizedVector3;
 			teleprompter.mode = synchronizedInt;
+			masterDis = transform.position.y;
 		}
 	
 		// Update is called once per frame
