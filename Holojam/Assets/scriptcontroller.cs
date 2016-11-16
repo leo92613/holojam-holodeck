@@ -24,7 +24,6 @@ namespace Holojam.Tools
 		public GameObject targetPos;
 		[SerializeField]
 		private int curmode = 0;
-		private int cursor = 0;
 		private float origin = -2f;
 		private float timethreshold = 0.5f;
 		private float timer = 0;
@@ -46,11 +45,10 @@ namespace Holojam.Tools
 				SetColor (i);
 			}
 			SetAlpha (0);
-
-
 		}
 
-		void Update(){
+		void Update ()
+		{
 			telePos.rotation = GameObject.Find ("OriginTele").transform.rotation;
 		}
 		// Update is called once per frame
@@ -75,7 +73,7 @@ namespace Holojam.Tools
 					telePos.parent = targetPos.transform;
 			}
 
-			if (mode < 3 && mode >-1)
+			if (mode < 3 && mode > -1)
 				curmode = mode;
 			if (phonecontroller.z > 0.1) {
 				for (int i = 0; i < 6; i++) {
@@ -93,7 +91,7 @@ namespace Holojam.Tools
 							_dis = -phonecontroller.y / Mathf.Abs (phonecontroller.y) * 0.05f;
 						SetPos (_dis);
 					}
-					if(curmode == 0)
+					if (curmode == 0)
 						SetPos ();	
 				}
 				if (curmode == 2)
@@ -114,13 +112,16 @@ namespace Holojam.Tools
 			}
 		}
 
-		void SetPrompterPos(float _dis)
+		void SetPrompterPos (float _dis)
 		{
-			telePos.localPosition += new Vector3 (0, _dis*0.1f, 0);
+			telePos.localPosition += new Vector3 (0, _dis * 0.1f, 0);
 		}
-		void SetPos(){
+
+		void SetPos ()
+		{
 			SetPos (dis);
-			}
+		}
+
 		void SetPos (float _dis)
 		{
 
@@ -130,13 +131,13 @@ namespace Holojam.Tools
 			origin = phonecontroller.y;
 			if (Vcon [top].transform.localPosition.y > 105) {
 				Vcon [top].transform.localPosition = Vcon [bottom].transform.localPosition - _Reset;
-				SetText (top, next, true);
+				SetText (top, true);
 				bottom = top;
 				top = (top + 1) % 6;
 			}
 			if (Vcon [bottom].transform.localPosition.y < -140) {
 				Vcon [bottom].transform.localPosition = Vcon [top].transform.localPosition + _Reset;
-				SetText (bottom, previous, false);
+				SetText (bottom, false);
 				top = bottom;
 				bottom = (top + 5) % 6;
 			}
@@ -144,9 +145,9 @@ namespace Holojam.Tools
 				
 		}
 
-		void SetText (int index, int cursor, bool forword)
+		void SetText (int index, bool forward)
 		{
-			if (forword) {
+			if (forward) {
 				if (next + 1 < lines.Length) {
 					Vcon [index].setText (lines [++next]);
 					SetColor (index);
@@ -173,12 +174,15 @@ namespace Holojam.Tools
 
 		}
 
-		void InitColor(){
+		void InitColor ()
+		{
 		}
 
-		void SetAlpha(){
+		void SetAlpha ()
+		{
 			SetAlpha (0);
 		}
+
 		void SetAlpha (float alpha)
 		{
 			for (int i = 0; i < 6; i++) {
@@ -200,24 +204,25 @@ namespace Holojam.Tools
 			}
 		}
 
-		void SetColor(int ind){
+		void SetColor (int ind)
+		{
 			string tmp = Vcon [ind].getText ();
-			int i = (int)Char.GetNumericValue(tmp[0]);
-			tmp = tmp.Remove(0,1);
+			int i = (int)Char.GetNumericValue (tmp [0]);
+			tmp = tmp.Remove (0, 1);
 			Vcon [ind].setText (tmp);
 			switch (i) {
 			case 1:
-				Vcon [ind].setColor (new Vector4(0.5f,0.7f,1f,1f));
+				Vcon [ind].setColor (new Vector4 (0.5f, 0.7f, 1f, 1f));
 				break;
 			case 2:
-				Vcon [ind].setColor (new Vector4(1f,0.6f,0.6f,1f));
+				Vcon [ind].setColor (new Vector4 (1f, 0.6f, 0.6f, 1f));
 				break;
 			case 3:
 				Vcon [ind].setColor (Color.red);
 				break;
 			default:
 				Vcon [ind].setColor (Color.white);
-			break;	
+				break;	
 			}
 		}
 	}
