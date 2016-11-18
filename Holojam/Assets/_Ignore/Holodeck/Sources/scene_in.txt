@@ -1,3 +1,5 @@
+ 
+  
 1GUY: In a moment it’ll be my stop.
 2GAL: Don’t you need to get ready to go?
 1GUY: It’s ok. I can get out at the next stop.
@@ -27,3 +29,5 @@
 2GAL: Don’t you need to get ready to go?
 1GUY: It’s ok, I can get out at the next stop.
 1     I’m really enjoying talking with you.
+ 
+  

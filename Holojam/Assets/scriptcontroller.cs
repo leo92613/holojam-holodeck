@@ -49,7 +49,7 @@ namespace Holojam.Tools
 
 		void Update ()
 		{
-			telePos.rotation = GameObject.Find ("OriginTele").transform.rotation;
+			//telePos.rotation = GameObject.Find ("OriginTele").transform.rotation;
 		}
 		// Update is called once per frame
 		void LateUpdate ()
@@ -99,9 +99,6 @@ namespace Holojam.Tools
 			} else {
 				origin = -2f;
 			}
-			//curmode = mode;
-
-
 		}
 
 		void InitText ()
@@ -161,7 +158,7 @@ namespace Holojam.Tools
 				}
 			} else {
 				if (previous - 1 >= 0) {
-					Vcon [index].setText (lines [--previous]);
+					Vcon [index].setText (lines [previous--]);
 					SetColor (index);
 					if (previous < lines.Length - 6)
 						next--;
