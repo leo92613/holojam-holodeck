@@ -7,6 +7,7 @@ namespace Holojam.Tools
 	{
 		public Transform originpos;
 		public Transform VRConsole;
+		public Transform VRConsoleCopy;
 		public Transform cameratransform;
 		public Vector3 hitpos;
 		public bool activated;
@@ -28,6 +29,10 @@ namespace Holojam.Tools
 					VRConsole.localPosition = originpos.localPosition;
 					VRConsole.localRotation = originpos.localRotation;
 					VRConsole.localScale = originpos.localScale;
+					VRConsoleCopy.parent = originpos.parent;
+					VRConsoleCopy.localPosition = originpos.localPosition;
+					VRConsoleCopy.localRotation = originpos.localRotation;
+					VRConsoleCopy.localScale = originpos.localScale;
 				} else {
 					activated = true;
 				}

@@ -41,6 +41,7 @@ namespace Holojam.Tools
 			phonecontroller = GameObject.Find ("Controller").gameObject.GetComponent<Holojam.Tools.Phonecontroller> ();
 			lines = Textfile.text.Split ('\n');
 			for (int i = 0; i < 6; i++) {
+				Vcon [i].gameObject.GetComponent<MeshRenderer> ().enabled = true;
 				Vcon [i].setText (lines [i]);
 				SetColor (i);
 			}
