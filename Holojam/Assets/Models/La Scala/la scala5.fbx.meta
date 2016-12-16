@@ -1,0 +1,1629 @@
+fileFormatVersion: 2
+guid: 41d7252675dd5415b93722e46d914d9a
+timeCreated: 1479925082
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: balcony_sides
+    100002: better_chairs_3
+    100004: better_chairs_4
+    100006: Ceiling
+    100008: chair_profile_25
+    100010: chair_profile_25 1
+    100012: chair_profile_49
+    100014: chair_profile_49 1
+    100016: chair_profile_50
+    100018: chair_profile_50 1
+    100020: chair_profile_51
+    100022: chair_profile_51 1
+    100024: chair_profile_52
+    100026: chair_profile_52 1
+    100028: chair_profile_53
+    100030: chair_profile_53 1
+    100032: chair_profile_54
+    100034: chair_profile_54 1
+    100036: chair_profile_55
+    100038: chair_profile_55 1
+    100040: chair_profile_56
+    100042: chair_profile_56 1
+    100044: chair_profile_57
+    100046: chair_profile_57 1
+    100048: chair_profile_58
+    100050: chair_profile_58 1
+    100052: chair_profile_59
+    100054: chair_profile_59 1
+    100056: chair_profile_60
+    100058: chair_profile_60 1
+    100060: chair_profile_61
+    100062: chair_profile_61 1
+    100064: chair_profile_62
+    100066: chair_profile_62 1
+    100068: chair_profile_63
+    100070: chair_profile_63 1
+    100072: chair_profile_65
+    100074: chair_profile_65 1
+    100076: chair_profile_66
+    100078: chair_profile_66 1
+    100080: chair_profile_67
+    100082: chair_profile_67 1
+    100084: chair_profile_68
+    100086: chair_profile_68 1
+    100088: chair_profile_69
+    100090: chair_profile_69 1
+    100092: chair_profile_71
+    100094: chair_profile_71 1
+    100096: chair_profile_72
+    100098: chair_profile_72 1
+    100100: chair_profile_73
+    100102: chair_profile_73 1
+    100104: chair_profile_74
+    100106: chair_profile_74 1
+    100108: chair_profile_75
+    100110: chair_profile_75 1
+    100112: chandelier
+    100114: Column_Stage_Left
+    100116: Column_Stage_Left1
+    100118: Entrance2
+    100120: footlight
+    100122: footlight1
+    100124: footlight2
+    100126: footlight3
+    100128: footlight4
+    100130: footlight5
+    100132: footlight6
+    100134: footlight7
+    100136: footlight8
+    100138: footlights
+    100140: House
+    100142: //RootNode
+    100144: lectern1
+    100146: partition1
+    100148: partition1 1
+    100150: partition10
+    100152: partition10 1
+    100154: partition11
+    100156: partition11 1
+    100158: partition12
+    100160: partition12 1
+    100162: partition13
+    100164: partition13 1
+    100166: partition14
+    100168: partition14 1
+    100170: partition15
+    100172: partition16
+    100174: partition17
+    100176: partition2
+    100178: partition2 1
+    100180: partition3
+    100182: partition3 1
+    100184: partition4
+    100186: partition4 1
+    100188: partition5
+    100190: partition5 1
+    100192: partition6
+    100194: partition6 1
+    100196: partition7
+    100198: partition7 1
+    100200: partition8
+    100202: partition8 1
+    100204: partition9
+    100206: partition9 1
+    100208: partitions
+    100210: partitions_back_house_left
+    100212: partitions_back_house_right
+    100214: partitions_center
+    100216: partitions_front_house_left
+    100218: partitions_front_house_right
+    100220: pCube13
+    100222: pCube14
+    100224: pCube15
+    100226: pCube16
+    100228: pCube17
+    100230: pCube18
+    100232: pCube19
+    100234: pCube20
+    100236: pCube20 1
+    100238: pCube20 10
+    100240: pCube20 11
+    100242: pCube20 12
+    100244: pCube20 13
+    100246: pCube20 14
+    100248: pCube20 15
+    100250: pCube20 16
+    100252: pCube20 17
+    100254: pCube20 18
+    100256: pCube20 19
+    100258: pCube20 2
+    100260: pCube20 20
+    100262: pCube20 21
+    100264: pCube20 22
+    100266: pCube20 23
+    100268: pCube20 24
+    100270: pCube20 25
+    100272: pCube20 26
+    100274: pCube20 27
+    100276: pCube20 28
+    100278: pCube20 29
+    100280: pCube20 3
+    100282: pCube20 30
+    100284: pCube20 4
+    100286: pCube20 5
+    100288: pCube20 6
+    100290: pCube20 7
+    100292: pCube20 8
+    100294: pCube20 9
+    100296: pCylinder1
+    100298: pCylinder1 1
+    100300: pCylinder1 10
+    100302: pCylinder1 11
+    100304: pCylinder1 12
+    100306: pCylinder1 13
+    100308: pCylinder1 14
+    100310: pCylinder1 15
+    100312: pCylinder1 16
+    100314: pCylinder1 17
+    100316: pCylinder1 18
+    100318: pCylinder1 19
+    100320: pCylinder1 2
+    100322: pCylinder1 20
+    100324: pCylinder1 21
+    100326: pCylinder1 22
+    100328: pCylinder1 23
+    100330: pCylinder1 24
+    100332: pCylinder1 25
+    100334: pCylinder1 26
+    100336: pCylinder1 27
+    100338: pCylinder1 28
+    100340: pCylinder1 29
+    100342: pCylinder1 3
+    100344: pCylinder1 30
+    100346: pCylinder1 4
+    100348: pCylinder1 5
+    100350: pCylinder1 6
+    100352: pCylinder1 7
+    100354: pCylinder1 8
+    100356: pCylinder1 9
+    100358: Proscenium_and_stage
+    100360: Royal_box2
+    100362: Stage_Floor
+    100364: Stage_Support_Face
+    100366: Theater_Floor
+    100368: back1
+    100370: better_chairs
+    100372: chair_curve
+    100374: chair_image
+    100376: chair_parts
+    100378: chair_path_house_left
+    100380: chair_path_house_left_short
+    100382: chair_path_house_right
+    100384: chair_path_house_right_short
+    100386: chair_profile_10
+    100388: chair_profile_10 1
+    100390: chair_profile_11
+    100392: chair_profile_11 1
+    100394: chair_profile_12
+    100396: chair_profile_12 1
+    100398: chair_profile_13
+    100400: chair_profile_13 1
+    100402: chair_profile_14
+    100404: chair_profile_14 1
+    100406: chair_profile_15
+    100408: chair_profile_15 1
+    100410: chair_profile_16
+    100412: chair_profile_16 1
+    100414: chair_profile_17
+    100416: chair_profile_17 1
+    100418: chair_profile_18
+    100420: chair_profile_18 1
+    100422: chair_profile_19
+    100424: chair_profile_19 1
+    100426: chair_profile_2
+    100428: chair_profile_2 1
+    100430: chair_profile_20
+    100432: chair_profile_20 1
+    100434: chair_profile_21
+    100436: chair_profile_21 1
+    100438: chair_profile_22
+    100440: chair_profile_22 1
+    100442: chair_profile_23
+    100444: chair_profile_23 1
+    100446: chair_profile_24
+    100448: chair_profile_24 1
+    100450: chair_profile_26
+    100452: chair_profile_27
+    100454: chair_profile_28
+    100456: chair_profile_29
+    100458: chair_profile_3
+    100460: chair_profile_3 1
+    100462: chair_profile_30
+    100464: chair_profile_31
+    100466: chair_profile_32
+    100468: chair_profile_33
+    100470: chair_profile_34
+    100472: chair_profile_35
+    100474: chair_profile_36
+    100476: chair_profile_37
+    100478: chair_profile_38
+    100480: chair_profile_39
+    100482: chair_profile_4
+    100484: chair_profile_4 1
+    100486: chair_profile_40
+    100488: chair_profile_41
+    100490: chair_profile_42
+    100492: chair_profile_43
+    100494: chair_profile_44
+    100496: chair_profile_45
+    100498: chair_profile_46
+    100500: chair_profile_47
+    100502: chair_profile_48
+    100504: chair_profile_5
+    100506: chair_profile_5 1
+    100508: chair_profile_6
+    100510: chair_profile_6 1
+    100512: chair_profile_7
+    100514: chair_profile_7 1
+    100516: chair_profile_8
+    100518: chair_profile_8 1
+    100520: chair_profile_9
+    100522: chair_profile_9 1
+    100524: chairs
+    100526: chairs_first_row1
+    100528: chairs_first_row10
+    100530: chairs_first_row11
+    100532: chairs_first_row12
+    100534: chairs_first_row13
+    100536: chairs_first_row2
+    100538: chairs_first_row3
+    100540: chairs_first_row4
+    100542: chairs_first_row5
+    100544: chairs_first_row6
+    100546: chairs_first_row7
+    100548: chairs_first_row8
+    100550: chairs_first_row9
+    100552: chairs_house_left
+    100554: chairs_house_left_rear
+    100556: chairs_house_right
+    100558: chairs_house_right_rear
+    100560: Concert_Hall
+    100562: Entrance
+    100564: Entrance1
+    100566: extrudedSurface10
+    100568: extrudedSurface11
+    100570: extrudedSurface12
+    100572: extrudedSurface13
+    100574: extrudedSurface14
+    100576: extrudedSurface15
+    100578: extrudedSurface16
+    100580: extrudedSurface17
+    100582: extrudedSurface20
+    100584: extrudedSurface21
+    100586: extrudedSurface3
+    100588: extrudedSurface4
+    100590: extrudedSurface5
+    100592: extrudedSurface6
+    100594: extrudedSurface7
+    100596: extrudedSurface8
+    100598: extrudedSurface9
+    100600: horseshoe_bezier
+    100602: imagePlane1
+    100604: imagePlane2
+    100606: inserts_for_box_seats
+    100608: left1
+    100610: new_chairs
+    100612: new_chairs1
+    100614: pCube1
+    100616: pCube10
+    100618: pCube11
+    100620: pCube12
+    100622: pCube2
+    100624: pCube3
+    100626: pCube4
+    100628: pCube5
+    100630: pCube6
+    100632: pCube7
+    100634: pCube8
+    100636: pCube9
+    100638: Royal_box
+    100640: Royal_box1
+    100642: transform1
+    100644: transform10
+    100646: transform11
+    100648: transform12
+    100650: transform14
+    100652: transform15
+    100654: transform16
+    100656: transform17
+    100658: transform2
+    100660: transform3
+    100662: transform4
+    100664: transform5
+    100666: transform6
+    100668: transform7
+    100670: transform8
+    100672: transform9
+    100674: Unused
+    100676: ellipsoidal1
+    100678: ellipsoidal1 1
+    100680: ellipsoidal2
+    100682: ellipsoidal2 1
+    100684: ellipsoidal3
+    100686: ellipsoidal3 1
+    100688: ellipsoidal4
+    100690: ellipsoidal4 1
+    100692: ellipsoidal5
+    100694: ellipsoidal5 1
+    100696: ellipsoidal6
+    100698: ellipsoidal6 1
+    100700: footlight10
+    100702: footlight11
+    100704: footlight12
+    100706: footlight13
+    100708: footlight14
+    100710: footlight15
+    100712: footlight16
+    100714: footlight9
+    100716: footlight_bulb1
+    100718: footlight_bulb1 1
+    100720: footlight_bulb1 2
+    100722: footlight_bulb1 3
+    100724: footlight_bulb1 4
+    100726: footlight_bulb1 5
+    100728: footlight_bulb1 6
+    100730: footlight_bulb1 7
+    100732: footlight_bulb1 8
+    100734: group1
+    100736: group2
+    100738: pipe
+    100740: pipe 1
+    100742: piped_lights
+    400000: balcony_sides
+    400002: better_chairs_3
+    400004: better_chairs_4
+    400006: Ceiling
+    400008: chair_profile_25
+    400010: chair_profile_25 1
+    400012: chair_profile_49
+    400014: chair_profile_49 1
+    400016: chair_profile_50
+    400018: chair_profile_50 1
+    400020: chair_profile_51
+    400022: chair_profile_51 1
+    400024: chair_profile_52
+    400026: chair_profile_52 1
+    400028: chair_profile_53
+    400030: chair_profile_53 1
+    400032: chair_profile_54
+    400034: chair_profile_54 1
+    400036: chair_profile_55
+    400038: chair_profile_55 1
+    400040: chair_profile_56
+    400042: chair_profile_56 1
+    400044: chair_profile_57
+    400046: chair_profile_57 1
+    400048: chair_profile_58
+    400050: chair_profile_58 1
+    400052: chair_profile_59
+    400054: chair_profile_59 1
+    400056: chair_profile_60
+    400058: chair_profile_60 1
+    400060: chair_profile_61
+    400062: chair_profile_61 1
+    400064: chair_profile_62
+    400066: chair_profile_62 1
+    400068: chair_profile_63
+    400070: chair_profile_63 1
+    400072: chair_profile_65
+    400074: chair_profile_65 1
+    400076: chair_profile_66
+    400078: chair_profile_66 1
+    400080: chair_profile_67
+    400082: chair_profile_67 1
+    400084: chair_profile_68
+    400086: chair_profile_68 1
+    400088: chair_profile_69
+    400090: chair_profile_69 1
+    400092: chair_profile_71
+    400094: chair_profile_71 1
+    400096: chair_profile_72
+    400098: chair_profile_72 1
+    400100: chair_profile_73
+    400102: chair_profile_73 1
+    400104: chair_profile_74
+    400106: chair_profile_74 1
+    400108: chair_profile_75
+    400110: chair_profile_75 1
+    400112: chandelier
+    400114: Column_Stage_Left
+    400116: Column_Stage_Left1
+    400118: Entrance2
+    400120: footlight
+    400122: footlight1
+    400124: footlight2
+    400126: footlight3
+    400128: footlight4
+    400130: footlight5
+    400132: footlight6
+    400134: footlight7
+    400136: footlight8
+    400138: footlights
+    400140: House
+    400142: //RootNode
+    400144: lectern1
+    400146: partition1
+    400148: partition1 1
+    400150: partition10
+    400152: partition10 1
+    400154: partition11
+    400156: partition11 1
+    400158: partition12
+    400160: partition12 1
+    400162: partition13
+    400164: partition13 1
+    400166: partition14
+    400168: partition14 1
+    400170: partition15
+    400172: partition16
+    400174: partition17
+    400176: partition2
+    400178: partition2 1
+    400180: partition3
+    400182: partition3 1
+    400184: partition4
+    400186: partition4 1
+    400188: partition5
+    400190: partition5 1
+    400192: partition6
+    400194: partition6 1
+    400196: partition7
+    400198: partition7 1
+    400200: partition8
+    400202: partition8 1
+    400204: partition9
+    400206: partition9 1
+    400208: partitions
+    400210: partitions_back_house_left
+    400212: partitions_back_house_right
+    400214: partitions_center
+    400216: partitions_front_house_left
+    400218: partitions_front_house_right
+    400220: pCube13
+    400222: pCube14
+    400224: pCube15
+    400226: pCube16
+    400228: pCube17
+    400230: pCube18
+    400232: pCube19
+    400234: pCube20
+    400236: pCube20 1
+    400238: pCube20 10
+    400240: pCube20 11
+    400242: pCube20 12
+    400244: pCube20 13
+    400246: pCube20 14
+    400248: pCube20 15
+    400250: pCube20 16
+    400252: pCube20 17
+    400254: pCube20 18
+    400256: pCube20 19
+    400258: pCube20 2
+    400260: pCube20 20
+    400262: pCube20 21
+    400264: pCube20 22
+    400266: pCube20 23
+    400268: pCube20 24
+    400270: pCube20 25
+    400272: pCube20 26
+    400274: pCube20 27
+    400276: pCube20 28
+    400278: pCube20 29
+    400280: pCube20 3
+    400282: pCube20 30
+    400284: pCube20 4
+    400286: pCube20 5
+    400288: pCube20 6
+    400290: pCube20 7
+    400292: pCube20 8
+    400294: pCube20 9
+    400296: pCylinder1
+    400298: pCylinder1 1
+    400300: pCylinder1 10
+    400302: pCylinder1 11
+    400304: pCylinder1 12
+    400306: pCylinder1 13
+    400308: pCylinder1 14
+    400310: pCylinder1 15
+    400312: pCylinder1 16
+    400314: pCylinder1 17
+    400316: pCylinder1 18
+    400318: pCylinder1 19
+    400320: pCylinder1 2
+    400322: pCylinder1 20
+    400324: pCylinder1 21
+    400326: pCylinder1 22
+    400328: pCylinder1 23
+    400330: pCylinder1 24
+    400332: pCylinder1 25
+    400334: pCylinder1 26
+    400336: pCylinder1 27
+    400338: pCylinder1 28
+    400340: pCylinder1 29
+    400342: pCylinder1 3
+    400344: pCylinder1 30
+    400346: pCylinder1 4
+    400348: pCylinder1 5
+    400350: pCylinder1 6
+    400352: pCylinder1 7
+    400354: pCylinder1 8
+    400356: pCylinder1 9
+    400358: Proscenium_and_stage
+    400360: Royal_box2
+    400362: Stage_Floor
+    400364: Stage_Support_Face
+    400366: Theater_Floor
+    400368: back1
+    400370: better_chairs
+    400372: chair_curve
+    400374: chair_image
+    400376: chair_parts
+    400378: chair_path_house_left
+    400380: chair_path_house_left_short
+    400382: chair_path_house_right
+    400384: chair_path_house_right_short
+    400386: chair_profile_10
+    400388: chair_profile_10 1
+    400390: chair_profile_11
+    400392: chair_profile_11 1
+    400394: chair_profile_12
+    400396: chair_profile_12 1
+    400398: chair_profile_13
+    400400: chair_profile_13 1
+    400402: chair_profile_14
+    400404: chair_profile_14 1
+    400406: chair_profile_15
+    400408: chair_profile_15 1
+    400410: chair_profile_16
+    400412: chair_profile_16 1
+    400414: chair_profile_17
+    400416: chair_profile_17 1
+    400418: chair_profile_18
+    400420: chair_profile_18 1
+    400422: chair_profile_19
+    400424: chair_profile_19 1
+    400426: chair_profile_2
+    400428: chair_profile_2 1
+    400430: chair_profile_20
+    400432: chair_profile_20 1
+    400434: chair_profile_21
+    400436: chair_profile_21 1
+    400438: chair_profile_22
+    400440: chair_profile_22 1
+    400442: chair_profile_23
+    400444: chair_profile_23 1
+    400446: chair_profile_24
+    400448: chair_profile_24 1
+    400450: chair_profile_26
+    400452: chair_profile_27
+    400454: chair_profile_28
+    400456: chair_profile_29
+    400458: chair_profile_3
+    400460: chair_profile_3 1
+    400462: chair_profile_30
+    400464: chair_profile_31
+    400466: chair_profile_32
+    400468: chair_profile_33
+    400470: chair_profile_34
+    400472: chair_profile_35
+    400474: chair_profile_36
+    400476: chair_profile_37
+    400478: chair_profile_38
+    400480: chair_profile_39
+    400482: chair_profile_4
+    400484: chair_profile_4 1
+    400486: chair_profile_40
+    400488: chair_profile_41
+    400490: chair_profile_42
+    400492: chair_profile_43
+    400494: chair_profile_44
+    400496: chair_profile_45
+    400498: chair_profile_46
+    400500: chair_profile_47
+    400502: chair_profile_48
+    400504: chair_profile_5
+    400506: chair_profile_5 1
+    400508: chair_profile_6
+    400510: chair_profile_6 1
+    400512: chair_profile_7
+    400514: chair_profile_7 1
+    400516: chair_profile_8
+    400518: chair_profile_8 1
+    400520: chair_profile_9
+    400522: chair_profile_9 1
+    400524: chairs
+    400526: chairs_first_row1
+    400528: chairs_first_row10
+    400530: chairs_first_row11
+    400532: chairs_first_row12
+    400534: chairs_first_row13
+    400536: chairs_first_row2
+    400538: chairs_first_row3
+    400540: chairs_first_row4
+    400542: chairs_first_row5
+    400544: chairs_first_row6
+    400546: chairs_first_row7
+    400548: chairs_first_row8
+    400550: chairs_first_row9
+    400552: chairs_house_left
+    400554: chairs_house_left_rear
+    400556: chairs_house_right
+    400558: chairs_house_right_rear
+    400560: Concert_Hall
+    400562: Entrance
+    400564: Entrance1
+    400566: extrudedSurface10
+    400568: extrudedSurface11
+    400570: extrudedSurface12
+    400572: extrudedSurface13
+    400574: extrudedSurface14
+    400576: extrudedSurface15
+    400578: extrudedSurface16
+    400580: extrudedSurface17
+    400582: extrudedSurface20
+    400584: extrudedSurface21
+    400586: extrudedSurface3
+    400588: extrudedSurface4
+    400590: extrudedSurface5
+    400592: extrudedSurface6
+    400594: extrudedSurface7
+    400596: extrudedSurface8
+    400598: extrudedSurface9
+    400600: horseshoe_bezier
+    400602: imagePlane1
+    400604: imagePlane2
+    400606: inserts_for_box_seats
+    400608: left1
+    400610: new_chairs
+    400612: new_chairs1
+    400614: pCube1
+    400616: pCube10
+    400618: pCube11
+    400620: pCube12
+    400622: pCube2
+    400624: pCube3
+    400626: pCube4
+    400628: pCube5
+    400630: pCube6
+    400632: pCube7
+    400634: pCube8
+    400636: pCube9
+    400638: Royal_box
+    400640: Royal_box1
+    400642: transform1
+    400644: transform10
+    400646: transform11
+    400648: transform12
+    400650: transform14
+    400652: transform15
+    400654: transform16
+    400656: transform17
+    400658: transform2
+    400660: transform3
+    400662: transform4
+    400664: transform5
+    400666: transform6
+    400668: transform7
+    400670: transform8
+    400672: transform9
+    400674: Unused
+    400676: ellipsoidal1
+    400678: ellipsoidal1 1
+    400680: ellipsoidal2
+    400682: ellipsoidal2 1
+    400684: ellipsoidal3
+    400686: ellipsoidal3 1
+    400688: ellipsoidal4
+    400690: ellipsoidal4 1
+    400692: ellipsoidal5
+    400694: ellipsoidal5 1
+    400696: ellipsoidal6
+    400698: ellipsoidal6 1
+    400700: footlight10
+    400702: footlight11
+    400704: footlight12
+    400706: footlight13
+    400708: footlight14
+    400710: footlight15
+    400712: footlight16
+    400714: footlight9
+    400716: footlight_bulb1
+    400718: footlight_bulb1 1
+    400720: footlight_bulb1 2
+    400722: footlight_bulb1 3
+    400724: footlight_bulb1 4
+    400726: footlight_bulb1 5
+    400728: footlight_bulb1 6
+    400730: footlight_bulb1 7
+    400732: footlight_bulb1 8
+    400734: group1
+    400736: group2
+    400738: pipe
+    400740: pipe 1
+    400742: piped_lights
+    2300000: balcony_sides
+    2300002: Ceiling
+    2300004: chair_profile_25
+    2300006: chair_profile_25 1
+    2300008: chair_profile_49
+    2300010: chair_profile_49 1
+    2300012: chair_profile_50
+    2300014: chair_profile_50 1
+    2300016: chair_profile_51
+    2300018: chair_profile_51 1
+    2300020: chair_profile_52
+    2300022: chair_profile_52 1
+    2300024: chair_profile_53
+    2300026: chair_profile_53 1
+    2300028: chair_profile_54
+    2300030: chair_profile_54 1
+    2300032: chair_profile_55
+    2300034: chair_profile_55 1
+    2300036: chair_profile_56
+    2300038: chair_profile_56 1
+    2300040: chair_profile_57
+    2300042: chair_profile_57 1
+    2300044: chair_profile_58
+    2300046: chair_profile_58 1
+    2300048: chair_profile_59
+    2300050: chair_profile_59 1
+    2300052: chair_profile_60
+    2300054: chair_profile_60 1
+    2300056: chair_profile_61
+    2300058: chair_profile_61 1
+    2300060: chair_profile_62
+    2300062: chair_profile_62 1
+    2300064: chair_profile_63
+    2300066: chair_profile_63 1
+    2300068: chair_profile_65
+    2300070: chair_profile_65 1
+    2300072: chair_profile_66
+    2300074: chair_profile_66 1
+    2300076: chair_profile_67
+    2300078: chair_profile_67 1
+    2300080: chair_profile_68
+    2300082: chair_profile_68 1
+    2300084: chair_profile_69
+    2300086: chair_profile_69 1
+    2300088: chair_profile_71
+    2300090: chair_profile_71 1
+    2300092: chair_profile_72
+    2300094: chair_profile_72 1
+    2300096: chair_profile_73
+    2300098: chair_profile_73 1
+    2300100: chair_profile_74
+    2300102: chair_profile_74 1
+    2300104: chair_profile_75
+    2300106: chair_profile_75 1
+    2300108: chandelier
+    2300110: Column_Stage_Left
+    2300112: Column_Stage_Left1
+    2300114: Entrance2
+    2300116: footlight
+    2300118: footlight1
+    2300120: footlight2
+    2300122: footlight3
+    2300124: footlight4
+    2300126: footlight5
+    2300128: footlight6
+    2300130: footlight7
+    2300132: footlight8
+    2300134: lectern1
+    2300136: pCube13
+    2300138: pCube14
+    2300140: pCube15
+    2300142: pCube16
+    2300144: pCube17
+    2300146: pCube18
+    2300148: pCube19
+    2300150: pCube20
+    2300152: pCube20 1
+    2300154: pCube20 10
+    2300156: pCube20 11
+    2300158: pCube20 12
+    2300160: pCube20 13
+    2300162: pCube20 14
+    2300164: pCube20 15
+    2300166: pCube20 16
+    2300168: pCube20 17
+    2300170: pCube20 18
+    2300172: pCube20 19
+    2300174: pCube20 2
+    2300176: pCube20 20
+    2300178: pCube20 21
+    2300180: pCube20 22
+    2300182: pCube20 23
+    2300184: pCube20 24
+    2300186: pCube20 25
+    2300188: pCube20 26
+    2300190: pCube20 27
+    2300192: pCube20 28
+    2300194: pCube20 29
+    2300196: pCube20 3
+    2300198: pCube20 30
+    2300200: pCube20 4
+    2300202: pCube20 5
+    2300204: pCube20 6
+    2300206: pCube20 7
+    2300208: pCube20 8
+    2300210: pCube20 9
+    2300212: pCylinder1
+    2300214: pCylinder1 1
+    2300216: pCylinder1 10
+    2300218: pCylinder1 11
+    2300220: pCylinder1 12
+    2300222: pCylinder1 13
+    2300224: pCylinder1 14
+    2300226: pCylinder1 15
+    2300228: pCylinder1 16
+    2300230: pCylinder1 17
+    2300232: pCylinder1 18
+    2300234: pCylinder1 19
+    2300236: pCylinder1 2
+    2300238: pCylinder1 20
+    2300240: pCylinder1 21
+    2300242: pCylinder1 22
+    2300244: pCylinder1 23
+    2300246: pCylinder1 24
+    2300248: pCylinder1 25
+    2300250: pCylinder1 26
+    2300252: pCylinder1 27
+    2300254: pCylinder1 28
+    2300256: pCylinder1 29
+    2300258: pCylinder1 3
+    2300260: pCylinder1 30
+    2300262: pCylinder1 4
+    2300264: pCylinder1 5
+    2300266: pCylinder1 6
+    2300268: pCylinder1 7
+    2300270: pCylinder1 8
+    2300272: pCylinder1 9
+    2300274: Royal_box2
+    2300276: Stage_Floor
+    2300278: Stage_Support_Face
+    2300280: Theater_Floor
+    2300282: chair_profile_10
+    2300284: chair_profile_10 1
+    2300286: chair_profile_11
+    2300288: chair_profile_11 1
+    2300290: chair_profile_12
+    2300292: chair_profile_12 1
+    2300294: chair_profile_13
+    2300296: chair_profile_13 1
+    2300298: chair_profile_14
+    2300300: chair_profile_14 1
+    2300302: chair_profile_15
+    2300304: chair_profile_15 1
+    2300306: chair_profile_16
+    2300308: chair_profile_16 1
+    2300310: chair_profile_17
+    2300312: chair_profile_17 1
+    2300314: chair_profile_18
+    2300316: chair_profile_18 1
+    2300318: chair_profile_19
+    2300320: chair_profile_19 1
+    2300322: chair_profile_2
+    2300324: chair_profile_2 1
+    2300326: chair_profile_20
+    2300328: chair_profile_20 1
+    2300330: chair_profile_21
+    2300332: chair_profile_21 1
+    2300334: chair_profile_22
+    2300336: chair_profile_22 1
+    2300338: chair_profile_23
+    2300340: chair_profile_23 1
+    2300342: chair_profile_24
+    2300344: chair_profile_24 1
+    2300346: chair_profile_26
+    2300348: chair_profile_27
+    2300350: chair_profile_28
+    2300352: chair_profile_29
+    2300354: chair_profile_3
+    2300356: chair_profile_3 1
+    2300358: chair_profile_30
+    2300360: chair_profile_31
+    2300362: chair_profile_32
+    2300364: chair_profile_33
+    2300366: chair_profile_34
+    2300368: chair_profile_35
+    2300370: chair_profile_36
+    2300372: chair_profile_37
+    2300374: chair_profile_38
+    2300376: chair_profile_39
+    2300378: chair_profile_4
+    2300380: chair_profile_4 1
+    2300382: chair_profile_40
+    2300384: chair_profile_41
+    2300386: chair_profile_42
+    2300388: chair_profile_43
+    2300390: chair_profile_44
+    2300392: chair_profile_45
+    2300394: chair_profile_46
+    2300396: chair_profile_47
+    2300398: chair_profile_48
+    2300400: chair_profile_5
+    2300402: chair_profile_5 1
+    2300404: chair_profile_6
+    2300406: chair_profile_6 1
+    2300408: chair_profile_7
+    2300410: chair_profile_7 1
+    2300412: chair_profile_8
+    2300414: chair_profile_8 1
+    2300416: chair_profile_9
+    2300418: chair_profile_9 1
+    2300420: chairs_first_row1
+    2300422: chairs_first_row10
+    2300424: chairs_first_row11
+    2300426: chairs_first_row12
+    2300428: chairs_first_row13
+    2300430: chairs_first_row2
+    2300432: chairs_first_row3
+    2300434: chairs_first_row4
+    2300436: chairs_first_row5
+    2300438: chairs_first_row6
+    2300440: chairs_first_row7
+    2300442: chairs_first_row8
+    2300444: chairs_first_row9
+    2300446: extrudedSurface10
+    2300448: extrudedSurface11
+    2300450: extrudedSurface12
+    2300452: extrudedSurface13
+    2300454: extrudedSurface14
+    2300456: extrudedSurface15
+    2300458: extrudedSurface16
+    2300460: extrudedSurface17
+    2300462: extrudedSurface20
+    2300464: extrudedSurface21
+    2300466: extrudedSurface3
+    2300468: extrudedSurface4
+    2300470: extrudedSurface5
+    2300472: extrudedSurface6
+    2300474: extrudedSurface7
+    2300476: extrudedSurface8
+    2300478: extrudedSurface9
+    2300480: ellipsoidal1
+    2300482: ellipsoidal1 1
+    2300484: ellipsoidal2
+    2300486: ellipsoidal2 1
+    2300488: ellipsoidal3
+    2300490: ellipsoidal3 1
+    2300492: ellipsoidal4
+    2300494: ellipsoidal4 1
+    2300496: ellipsoidal5
+    2300498: ellipsoidal5 1
+    2300500: ellipsoidal6
+    2300502: ellipsoidal6 1
+    2300504: footlight10
+    2300506: footlight11
+    2300508: footlight12
+    2300510: footlight13
+    2300512: footlight14
+    2300514: footlight15
+    2300516: footlight16
+    2300518: footlight9
+    2300520: footlight_bulb1
+    2300522: footlight_bulb1 1
+    2300524: footlight_bulb1 2
+    2300526: footlight_bulb1 3
+    2300528: footlight_bulb1 4
+    2300530: footlight_bulb1 5
+    2300532: footlight_bulb1 6
+    2300534: footlight_bulb1 7
+    2300536: footlight_bulb1 8
+    2300538: pipe
+    2300540: pipe 1
+    3300000: balcony_sides
+    3300002: Ceiling
+    3300004: chair_profile_25
+    3300006: chair_profile_25 1
+    3300008: chair_profile_49
+    3300010: chair_profile_49 1
+    3300012: chair_profile_50
+    3300014: chair_profile_50 1
+    3300016: chair_profile_51
+    3300018: chair_profile_51 1
+    3300020: chair_profile_52
+    3300022: chair_profile_52 1
+    3300024: chair_profile_53
+    3300026: chair_profile_53 1
+    3300028: chair_profile_54
+    3300030: chair_profile_54 1
+    3300032: chair_profile_55
+    3300034: chair_profile_55 1
+    3300036: chair_profile_56
+    3300038: chair_profile_56 1
+    3300040: chair_profile_57
+    3300042: chair_profile_57 1
+    3300044: chair_profile_58
+    3300046: chair_profile_58 1
+    3300048: chair_profile_59
+    3300050: chair_profile_59 1
+    3300052: chair_profile_60
+    3300054: chair_profile_60 1
+    3300056: chair_profile_61
+    3300058: chair_profile_61 1
+    3300060: chair_profile_62
+    3300062: chair_profile_62 1
+    3300064: chair_profile_63
+    3300066: chair_profile_63 1
+    3300068: chair_profile_65
+    3300070: chair_profile_65 1
+    3300072: chair_profile_66
+    3300074: chair_profile_66 1
+    3300076: chair_profile_67
+    3300078: chair_profile_67 1
+    3300080: chair_profile_68
+    3300082: chair_profile_68 1
+    3300084: chair_profile_69
+    3300086: chair_profile_69 1
+    3300088: chair_profile_71
+    3300090: chair_profile_71 1
+    3300092: chair_profile_72
+    3300094: chair_profile_72 1
+    3300096: chair_profile_73
+    3300098: chair_profile_73 1
+    3300100: chair_profile_74
+    3300102: chair_profile_74 1
+    3300104: chair_profile_75
+    3300106: chair_profile_75 1
+    3300108: chandelier
+    3300110: Column_Stage_Left
+    3300112: Column_Stage_Left1
+    3300114: Entrance2
+    3300116: footlight
+    3300118: footlight1
+    3300120: footlight2
+    3300122: footlight3
+    3300124: footlight4
+    3300126: footlight5
+    3300128: footlight6
+    3300130: footlight7
+    3300132: footlight8
+    3300134: lectern1
+    3300136: pCube13
+    3300138: pCube14
+    3300140: pCube15
+    3300142: pCube16
+    3300144: pCube17
+    3300146: pCube18
+    3300148: pCube19
+    3300150: pCube20
+    3300152: pCube20 1
+    3300154: pCube20 10
+    3300156: pCube20 11
+    3300158: pCube20 12
+    3300160: pCube20 13
+    3300162: pCube20 14
+    3300164: pCube20 15
+    3300166: pCube20 16
+    3300168: pCube20 17
+    3300170: pCube20 18
+    3300172: pCube20 19
+    3300174: pCube20 2
+    3300176: pCube20 20
+    3300178: pCube20 21
+    3300180: pCube20 22
+    3300182: pCube20 23
+    3300184: pCube20 24
+    3300186: pCube20 25
+    3300188: pCube20 26
+    3300190: pCube20 27
+    3300192: pCube20 28
+    3300194: pCube20 29
+    3300196: pCube20 3
+    3300198: pCube20 30
+    3300200: pCube20 4
+    3300202: pCube20 5
+    3300204: pCube20 6
+    3300206: pCube20 7
+    3300208: pCube20 8
+    3300210: pCube20 9
+    3300212: pCylinder1
+    3300214: pCylinder1 1
+    3300216: pCylinder1 10
+    3300218: pCylinder1 11
+    3300220: pCylinder1 12
+    3300222: pCylinder1 13
+    3300224: pCylinder1 14
+    3300226: pCylinder1 15
+    3300228: pCylinder1 16
+    3300230: pCylinder1 17
+    3300232: pCylinder1 18
+    3300234: pCylinder1 19
+    3300236: pCylinder1 2
+    3300238: pCylinder1 20
+    3300240: pCylinder1 21
+    3300242: pCylinder1 22
+    3300244: pCylinder1 23
+    3300246: pCylinder1 24
+    3300248: pCylinder1 25
+    3300250: pCylinder1 26
+    3300252: pCylinder1 27
+    3300254: pCylinder1 28
+    3300256: pCylinder1 29
+    3300258: pCylinder1 3
+    3300260: pCylinder1 30
+    3300262: pCylinder1 4
+    3300264: pCylinder1 5
+    3300266: pCylinder1 6
+    3300268: pCylinder1 7
+    3300270: pCylinder1 8
+    3300272: pCylinder1 9
+    3300274: Royal_box2
+    3300276: Stage_Floor
+    3300278: Stage_Support_Face
+    3300280: Theater_Floor
+    3300282: chair_profile_10
+    3300284: chair_profile_10 1
+    3300286: chair_profile_11
+    3300288: chair_profile_11 1
+    3300290: chair_profile_12
+    3300292: chair_profile_12 1
+    3300294: chair_profile_13
+    3300296: chair_profile_13 1
+    3300298: chair_profile_14
+    3300300: chair_profile_14 1
+    3300302: chair_profile_15
+    3300304: chair_profile_15 1
+    3300306: chair_profile_16
+    3300308: chair_profile_16 1
+    3300310: chair_profile_17
+    3300312: chair_profile_17 1
+    3300314: chair_profile_18
+    3300316: chair_profile_18 1
+    3300318: chair_profile_19
+    3300320: chair_profile_19 1
+    3300322: chair_profile_2
+    3300324: chair_profile_2 1
+    3300326: chair_profile_20
+    3300328: chair_profile_20 1
+    3300330: chair_profile_21
+    3300332: chair_profile_21 1
+    3300334: chair_profile_22
+    3300336: chair_profile_22 1
+    3300338: chair_profile_23
+    3300340: chair_profile_23 1
+    3300342: chair_profile_24
+    3300344: chair_profile_24 1
+    3300346: chair_profile_26
+    3300348: chair_profile_27
+    3300350: chair_profile_28
+    3300352: chair_profile_29
+    3300354: chair_profile_3
+    3300356: chair_profile_3 1
+    3300358: chair_profile_30
+    3300360: chair_profile_31
+    3300362: chair_profile_32
+    3300364: chair_profile_33
+    3300366: chair_profile_34
+    3300368: chair_profile_35
+    3300370: chair_profile_36
+    3300372: chair_profile_37
+    3300374: chair_profile_38
+    3300376: chair_profile_39
+    3300378: chair_profile_4
+    3300380: chair_profile_4 1
+    3300382: chair_profile_40
+    3300384: chair_profile_41
+    3300386: chair_profile_42
+    3300388: chair_profile_43
+    3300390: chair_profile_44
+    3300392: chair_profile_45
+    3300394: chair_profile_46
+    3300396: chair_profile_47
+    3300398: chair_profile_48
+    3300400: chair_profile_5
+    3300402: chair_profile_5 1
+    3300404: chair_profile_6
+    3300406: chair_profile_6 1
+    3300408: chair_profile_7
+    3300410: chair_profile_7 1
+    3300412: chair_profile_8
+    3300414: chair_profile_8 1
+    3300416: chair_profile_9
+    3300418: chair_profile_9 1
+    3300420: chairs_first_row1
+    3300422: chairs_first_row10
+    3300424: chairs_first_row11
+    3300426: chairs_first_row12
+    3300428: chairs_first_row13
+    3300430: chairs_first_row2
+    3300432: chairs_first_row3
+    3300434: chairs_first_row4
+    3300436: chairs_first_row5
+    3300438: chairs_first_row6
+    3300440: chairs_first_row7
+    3300442: chairs_first_row8
+    3300444: chairs_first_row9
+    3300446: extrudedSurface10
+    3300448: extrudedSurface11
+    3300450: extrudedSurface12
+    3300452: extrudedSurface13
+    3300454: extrudedSurface14
+    3300456: extrudedSurface15
+    3300458: extrudedSurface16
+    3300460: extrudedSurface17
+    3300462: extrudedSurface20
+    3300464: extrudedSurface21
+    3300466: extrudedSurface3
+    3300468: extrudedSurface4
+    3300470: extrudedSurface5
+    3300472: extrudedSurface6
+    3300474: extrudedSurface7
+    3300476: extrudedSurface8
+    3300478: extrudedSurface9
+    3300480: ellipsoidal1
+    3300482: ellipsoidal1 1
+    3300484: ellipsoidal2
+    3300486: ellipsoidal2 1
+    3300488: ellipsoidal3
+    3300490: ellipsoidal3 1
+    3300492: ellipsoidal4
+    3300494: ellipsoidal4 1
+    3300496: ellipsoidal5
+    3300498: ellipsoidal5 1
+    3300500: ellipsoidal6
+    3300502: ellipsoidal6 1
+    3300504: footlight10
+    3300506: footlight11
+    3300508: footlight12
+    3300510: footlight13
+    3300512: footlight14
+    3300514: footlight15
+    3300516: footlight16
+    3300518: footlight9
+    3300520: footlight_bulb1
+    3300522: footlight_bulb1 1
+    3300524: footlight_bulb1 2
+    3300526: footlight_bulb1 3
+    3300528: footlight_bulb1 4
+    3300530: footlight_bulb1 5
+    3300532: footlight_bulb1 6
+    3300534: footlight_bulb1 7
+    3300536: footlight_bulb1 8
+    3300538: pipe
+    3300540: pipe 1
+    4300000: footlight
+    4300002: footlight1
+    4300004: footlight2
+    4300006: footlight3
+    4300008: footlight4
+    4300010: footlight5
+    4300012: footlight6
+    4300014: footlight7
+    4300016: footlight8
+    4300018: pCube14
+    4300020: pCube15
+    4300022: pCube13
+    4300024: pCube16
+    4300026: pCube17
+    4300028: pCube18
+    4300030: pCube19
+    4300032: lectern1
+    4300034: Theater_Floor
+    4300036: Ceiling
+    4300038: chandelier
+    4300040: Column_Stage_Left
+    4300042: Stage_Floor
+    4300044: Column_Stage_Left1
+    4300046: Stage_Support_Face
+    4300048: balcony_sides
+    4300050: Entrance2
+    4300052: Royal_box2
+    4300054: pCylinder1
+    4300056: pCube20
+    4300058: pCylinder1
+    4300060: pCube20
+    4300062: pCylinder1
+    4300064: pCube20
+    4300066: pCylinder1
+    4300068: pCube20
+    4300070: pCylinder1
+    4300072: pCube20
+    4300074: pCylinder1
+    4300076: pCube20
+    4300078: pCylinder1
+    4300080: pCube20
+    4300082: pCylinder1
+    4300084: pCube20
+    4300086: pCylinder1
+    4300088: pCube20
+    4300090: pCylinder1
+    4300092: pCube20
+    4300094: pCylinder1
+    4300096: pCube20
+    4300098: pCylinder1
+    4300100: pCube20
+    4300102: pCylinder1
+    4300104: pCube20
+    4300106: pCylinder1
+    4300108: pCube20
+    4300110: pCylinder1
+    4300112: pCube20
+    4300114: pCylinder1
+    4300116: pCube20
+    4300118: pCylinder1
+    4300120: pCube20
+    4300122: pCylinder1
+    4300124: pCube20
+    4300126: pCylinder1
+    4300128: pCube20
+    4300130: pCylinder1
+    4300132: pCube20
+    4300134: pCylinder1
+    4300136: pCube20
+    4300138: pCylinder1
+    4300140: pCube20
+    4300142: pCylinder1
+    4300144: pCube20
+    4300146: pCylinder1
+    4300148: pCube20
+    4300150: pCylinder1
+    4300152: pCube20
+    4300154: pCylinder1
+    4300156: pCube20
+    4300158: pCylinder1
+    4300160: pCube20
+    4300162: pCylinder1
+    4300164: pCube20
+    4300166: pCylinder1
+    4300168: pCube20
+    4300170: pCylinder1
+    4300172: pCube20
+    4300174: pCylinder1
+    4300176: pCube20
+    4300178: chair_profile_25
+    4300180: chair_profile_49
+    4300182: chair_profile_50
+    4300184: chair_profile_51
+    4300186: chair_profile_52
+    4300188: chair_profile_53
+    4300190: chair_profile_54
+    4300192: chair_profile_55
+    4300194: chair_profile_56
+    4300196: chair_profile_57
+    4300198: chair_profile_58
+    4300200: chair_profile_59
+    4300202: chair_profile_60
+    4300204: chair_profile_61
+    4300206: chair_profile_62
+    4300208: chair_profile_63
+    4300210: chair_profile_65
+    4300212: chair_profile_66
+    4300214: chair_profile_67
+    4300216: chair_profile_68
+    4300218: chair_profile_69
+    4300220: chair_profile_71
+    4300222: chair_profile_72
+    4300224: chair_profile_73
+    4300226: chair_profile_74
+    4300228: chair_profile_75
+    4300230: chair_profile_25
+    4300232: chair_profile_49
+    4300234: chair_profile_50
+    4300236: chair_profile_51
+    4300238: chair_profile_52
+    4300240: chair_profile_53
+    4300242: chair_profile_54
+    4300244: chair_profile_55
+    4300246: chair_profile_56
+    4300248: chair_profile_57
+    4300250: chair_profile_58
+    4300252: chair_profile_59
+    4300254: chair_profile_60
+    4300256: chair_profile_61
+    4300258: chair_profile_62
+    4300260: chair_profile_63
+    4300262: chair_profile_65
+    4300264: chair_profile_66
+    4300266: chair_profile_67
+    4300268: chair_profile_68
+    4300270: chair_profile_69
+    4300272: chair_profile_71
+    4300274: chair_profile_72
+    4300276: chair_profile_73
+    4300278: chair_profile_74
+    4300280: chair_profile_75
+    4300282: chairs_first_row1
+    4300284: chairs_first_row2
+    4300286: chairs_first_row3
+    4300288: chairs_first_row4
+    4300290: chairs_first_row5
+    4300292: chairs_first_row6
+    4300294: chairs_first_row7
+    4300296: chairs_first_row8
+    4300298: chairs_first_row9
+    4300300: chairs_first_row10
+    4300302: chairs_first_row11
+    4300304: chairs_first_row12
+    4300306: chairs_first_row13
+    4300308: extrudedSurface4
+    4300310: extrudedSurface3
+    4300312: extrudedSurface5
+    4300314: extrudedSurface6
+    4300316: extrudedSurface7
+    4300318: extrudedSurface8
+    4300320: extrudedSurface9
+    4300322: extrudedSurface10
+    4300324: extrudedSurface11
+    4300326: extrudedSurface12
+    4300328: extrudedSurface13
+    4300330: extrudedSurface14
+    4300332: extrudedSurface15
+    4300334: extrudedSurface16
+    4300336: extrudedSurface17
+    4300338: extrudedSurface20
+    4300340: extrudedSurface21
+    4300342: chair_profile_2
+    4300344: chair_profile_3
+    4300346: chair_profile_4
+    4300348: chair_profile_5
+    4300350: chair_profile_6
+    4300352: chair_profile_7
+    4300354: chair_profile_8
+    4300356: chair_profile_9
+    4300358: chair_profile_10
+    4300360: chair_profile_11
+    4300362: chair_profile_12
+    4300364: chair_profile_13
+    4300366: chair_profile_14
+    4300368: chair_profile_15
+    4300370: chair_profile_16
+    4300372: chair_profile_17
+    4300374: chair_profile_18
+    4300376: chair_profile_19
+    4300378: chair_profile_20
+    4300380: chair_profile_21
+    4300382: chair_profile_22
+    4300384: chair_profile_23
+    4300386: chair_profile_24
+    4300388: chair_profile_2
+    4300390: chair_profile_3
+    4300392: chair_profile_4
+    4300394: chair_profile_5
+    4300396: chair_profile_6
+    4300398: chair_profile_7
+    4300400: chair_profile_8
+    4300402: chair_profile_9
+    4300404: chair_profile_10
+    4300406: chair_profile_11
+    4300408: chair_profile_12
+    4300410: chair_profile_13
+    4300412: chair_profile_14
+    4300414: chair_profile_15
+    4300416: chair_profile_16
+    4300418: chair_profile_17
+    4300420: chair_profile_18
+    4300422: chair_profile_19
+    4300424: chair_profile_20
+    4300426: chair_profile_21
+    4300428: chair_profile_22
+    4300430: chair_profile_23
+    4300432: chair_profile_24
+    4300434: chair_profile_48
+    4300436: chair_profile_47
+    4300438: chair_profile_46
+    4300440: chair_profile_45
+    4300442: chair_profile_44
+    4300444: chair_profile_43
+    4300446: chair_profile_42
+    4300448: chair_profile_41
+    4300450: chair_profile_40
+    4300452: chair_profile_39
+    4300454: chair_profile_38
+    4300456: chair_profile_37
+    4300458: chair_profile_36
+    4300460: chair_profile_35
+    4300462: chair_profile_34
+    4300464: chair_profile_33
+    4300466: chair_profile_32
+    4300468: chair_profile_31
+    4300470: chair_profile_30
+    4300472: chair_profile_29
+    4300474: chair_profile_28
+    4300476: chair_profile_27
+    4300478: chair_profile_26
+    4300480: pipe
+    4300482: ellipsoidal1
+    4300484: ellipsoidal2
+    4300486: ellipsoidal3
+    4300488: ellipsoidal4
+    4300490: ellipsoidal5
+    4300492: ellipsoidal6
+    4300494: pipe
+    4300496: ellipsoidal1
+    4300498: ellipsoidal2
+    4300500: ellipsoidal3
+    4300502: ellipsoidal4
+    4300504: ellipsoidal5
+    4300506: ellipsoidal6
+    4300508: footlight_bulb1
+    4300510: footlight9
+    4300512: footlight_bulb1
+    4300514: footlight10
+    4300516: footlight_bulb1
+    4300518: footlight11
+    4300520: footlight_bulb1
+    4300522: footlight12
+    4300524: footlight_bulb1
+    4300526: footlight13
+    4300528: footlight_bulb1
+    4300530: footlight14
+    4300532: footlight_bulb1
+    4300534: footlight15
+    4300536: footlight_bulb1
+    4300538: footlight16
+    4300540: footlight_bulb1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 600
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

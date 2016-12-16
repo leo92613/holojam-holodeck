@@ -1,0 +1,878 @@
+fileFormatVersion: 2
+guid: 0ef0bed822889024f839ef29a3092204
+timeCreated: 1478724557
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back1
+    100002: bezier1
+    100004: bezier2
+    100006: bottom1
+    100008: box_seat_pieces
+    100010: Box_seats
+    100012: Ceiling
+    100014: chair_curve
+    100016: chair_image
+    100018: chair_parts
+    100020: chair_path_house_left
+    100022: chair_path_house_left_short
+    100024: chair_path_house_right
+    100026: chair_path_house_right_short
+    100028: chairs
+    100030: chairs_first_row1
+    100032: chairs_first_row10
+    100034: chairs_first_row11
+    100036: chairs_first_row12
+    100038: chairs_first_row13
+    100040: chairs_first_row2
+    100042: chairs_first_row3
+    100044: chairs_first_row4
+    100046: chairs_first_row5
+    100048: chairs_first_row6
+    100050: chairs_first_row7
+    100052: chairs_first_row8
+    100054: chairs_first_row9
+    100056: chairs_house_left
+    100058: chairs_house_left_rear
+    100060: chairs_house_right
+    100062: chairs_house_right_rear
+    100064: Column_Stage_Left
+    100066: Column_Stage_Left1
+    100068: curve1
+    100070: Entrance
+    100072: Entrance1
+    100074: Entrance2
+    100076: extrudedSurface1
+    100078: extrudedSurface10
+    100080: extrudedSurface11
+    100082: extrudedSurface12
+    100084: extrudedSurface13
+    100086: extrudedSurface14
+    100088: extrudedSurface15
+    100090: extrudedSurface16
+    100092: extrudedSurface17
+    100094: extrudedSurface2
+    100096: extrudedSurface20
+    100098: extrudedSurface21
+    100100: extrudedSurface3
+    100102: extrudedSurface4
+    100104: extrudedSurface5
+    100106: extrudedSurface6
+    100108: extrudedSurface7
+    100110: extrudedSurface8
+    100112: extrudedSurface9
+    100114: horseshoe_bezier
+    100116: House
+    100118: imagePlane1
+    100120: imagePlane2
+    100122: inserts_for_box_seats
+    100124: //RootNode
+    100126: left1
+    100128: new_sides
+    100130: nurbsToPoly10
+    100132: nurbsToPoly11
+    100134: nurbsToPoly12
+    100136: nurbsToPoly13
+    100138: nurbsToPoly14
+    100140: nurbsToPoly15
+    100142: nurbsToPoly2
+    100144: nurbsToPoly3
+    100146: nurbsToPoly5
+    100148: nurbsToPoly6
+    100150: nurbsToPoly7
+    100152: nurbsToPoly8
+    100154: nurbsToPoly9
+    100156: partition1
+    100158: partition1 1
+    100160: partition10
+    100162: partition10 1
+    100164: partition11
+    100166: partition11 1
+    100168: partition12
+    100170: partition12 1
+    100172: partition13
+    100174: partition13 1
+    100176: partition14
+    100178: partition14 1
+    100180: partition15
+    100182: partition16
+    100184: partition17
+    100186: partition2
+    100188: partition2 1
+    100190: partition3
+    100192: partition3 1
+    100194: partition4
+    100196: partition4 1
+    100198: partition5
+    100200: partition5 1
+    100202: partition6
+    100204: partition6 1
+    100206: partition7
+    100208: partition7 1
+    100210: partition8
+    100212: partition8 1
+    100214: partition9
+    100216: partition9 1
+    100218: partitions
+    100220: partitions_back_house_left
+    100222: partitions_back_house_right
+    100224: partitions_center
+    100226: partitions_front_house_left
+    100228: partitions_front_house_right
+    100230: pCube1
+    100232: pCube10
+    100234: pCube11
+    100236: pCube12
+    100238: pCube13
+    100240: pCube14
+    100242: pCube15
+    100244: pCube16
+    100246: pCube17
+    100248: pCube18
+    100250: pCube19
+    100252: pCube2
+    100254: pCube20
+    100256: pCube20 1
+    100258: pCube20 10
+    100260: pCube20 11
+    100262: pCube20 12
+    100264: pCube20 13
+    100266: pCube20 14
+    100268: pCube20 15
+    100270: pCube20 16
+    100272: pCube20 17
+    100274: pCube20 18
+    100276: pCube20 19
+    100278: pCube20 2
+    100280: pCube20 20
+    100282: pCube20 21
+    100284: pCube20 22
+    100286: pCube20 23
+    100288: pCube20 24
+    100290: pCube20 25
+    100292: pCube20 26
+    100294: pCube20 27
+    100296: pCube20 28
+    100298: pCube20 29
+    100300: pCube20 3
+    100302: pCube20 30
+    100304: pCube20 4
+    100306: pCube20 5
+    100308: pCube20 6
+    100310: pCube20 7
+    100312: pCube20 8
+    100314: pCube20 9
+    100316: pCube3
+    100318: pCube4
+    100320: pCube5
+    100322: pCube6
+    100324: pCube7
+    100326: pCube8
+    100328: pCube9
+    100330: pCylinder1
+    100332: pCylinder1 1
+    100334: pCylinder1 10
+    100336: pCylinder1 11
+    100338: pCylinder1 12
+    100340: pCylinder1 13
+    100342: pCylinder1 14
+    100344: pCylinder1 15
+    100346: pCylinder1 16
+    100348: pCylinder1 17
+    100350: pCylinder1 18
+    100352: pCylinder1 19
+    100354: pCylinder1 2
+    100356: pCylinder1 20
+    100358: pCylinder1 21
+    100360: pCylinder1 22
+    100362: pCylinder1 23
+    100364: pCylinder1 24
+    100366: pCylinder1 25
+    100368: pCylinder1 26
+    100370: pCylinder1 27
+    100372: pCylinder1 28
+    100374: pCylinder1 29
+    100376: pCylinder1 3
+    100378: pCylinder1 30
+    100380: pCylinder1 4
+    100382: pCylinder1 5
+    100384: pCylinder1 6
+    100386: pCylinder1 7
+    100388: pCylinder1 8
+    100390: pCylinder1 9
+    100392: Proscenium_and_stage
+    100394: Royal_box
+    100396: Royal_box1
+    100398: Royal_box2
+    100400: Stage_Floor
+    100402: Stage_Support_Face
+    100404: Theater_Floor
+    100406: transform1
+    100408: transform10
+    100410: transform11
+    100412: transform12
+    100414: transform13
+    100416: transform14
+    100418: transform15
+    100420: transform16
+    100422: transform17
+    100424: transform2
+    100426: transform3
+    100428: transform4
+    100430: transform5
+    100432: transform6
+    100434: transform7
+    100436: transform8
+    100438: transform9
+    100440: stand_in
+    400000: back1
+    400002: bezier1
+    400004: bezier2
+    400006: bottom1
+    400008: box_seat_pieces
+    400010: Box_seats
+    400012: Ceiling
+    400014: chair_curve
+    400016: chair_image
+    400018: chair_parts
+    400020: chair_path_house_left
+    400022: chair_path_house_left_short
+    400024: chair_path_house_right
+    400026: chair_path_house_right_short
+    400028: chairs
+    400030: chairs_first_row1
+    400032: chairs_first_row10
+    400034: chairs_first_row11
+    400036: chairs_first_row12
+    400038: chairs_first_row13
+    400040: chairs_first_row2
+    400042: chairs_first_row3
+    400044: chairs_first_row4
+    400046: chairs_first_row5
+    400048: chairs_first_row6
+    400050: chairs_first_row7
+    400052: chairs_first_row8
+    400054: chairs_first_row9
+    400056: chairs_house_left
+    400058: chairs_house_left_rear
+    400060: chairs_house_right
+    400062: chairs_house_right_rear
+    400064: Column_Stage_Left
+    400066: Column_Stage_Left1
+    400068: curve1
+    400070: Entrance
+    400072: Entrance1
+    400074: Entrance2
+    400076: extrudedSurface1
+    400078: extrudedSurface10
+    400080: extrudedSurface11
+    400082: extrudedSurface12
+    400084: extrudedSurface13
+    400086: extrudedSurface14
+    400088: extrudedSurface15
+    400090: extrudedSurface16
+    400092: extrudedSurface17
+    400094: extrudedSurface2
+    400096: extrudedSurface20
+    400098: extrudedSurface21
+    400100: extrudedSurface3
+    400102: extrudedSurface4
+    400104: extrudedSurface5
+    400106: extrudedSurface6
+    400108: extrudedSurface7
+    400110: extrudedSurface8
+    400112: extrudedSurface9
+    400114: horseshoe_bezier
+    400116: House
+    400118: imagePlane1
+    400120: imagePlane2
+    400122: inserts_for_box_seats
+    400124: //RootNode
+    400126: left1
+    400128: new_sides
+    400130: nurbsToPoly10
+    400132: nurbsToPoly11
+    400134: nurbsToPoly12
+    400136: nurbsToPoly13
+    400138: nurbsToPoly14
+    400140: nurbsToPoly15
+    400142: nurbsToPoly2
+    400144: nurbsToPoly3
+    400146: nurbsToPoly5
+    400148: nurbsToPoly6
+    400150: nurbsToPoly7
+    400152: nurbsToPoly8
+    400154: nurbsToPoly9
+    400156: partition1
+    400158: partition1 1
+    400160: partition10
+    400162: partition10 1
+    400164: partition11
+    400166: partition11 1
+    400168: partition12
+    400170: partition12 1
+    400172: partition13
+    400174: partition13 1
+    400176: partition14
+    400178: partition14 1
+    400180: partition15
+    400182: partition16
+    400184: partition17
+    400186: partition2
+    400188: partition2 1
+    400190: partition3
+    400192: partition3 1
+    400194: partition4
+    400196: partition4 1
+    400198: partition5
+    400200: partition5 1
+    400202: partition6
+    400204: partition6 1
+    400206: partition7
+    400208: partition7 1
+    400210: partition8
+    400212: partition8 1
+    400214: partition9
+    400216: partition9 1
+    400218: partitions
+    400220: partitions_back_house_left
+    400222: partitions_back_house_right
+    400224: partitions_center
+    400226: partitions_front_house_left
+    400228: partitions_front_house_right
+    400230: pCube1
+    400232: pCube10
+    400234: pCube11
+    400236: pCube12
+    400238: pCube13
+    400240: pCube14
+    400242: pCube15
+    400244: pCube16
+    400246: pCube17
+    400248: pCube18
+    400250: pCube19
+    400252: pCube2
+    400254: pCube20
+    400256: pCube20 1
+    400258: pCube20 10
+    400260: pCube20 11
+    400262: pCube20 12
+    400264: pCube20 13
+    400266: pCube20 14
+    400268: pCube20 15
+    400270: pCube20 16
+    400272: pCube20 17
+    400274: pCube20 18
+    400276: pCube20 19
+    400278: pCube20 2
+    400280: pCube20 20
+    400282: pCube20 21
+    400284: pCube20 22
+    400286: pCube20 23
+    400288: pCube20 24
+    400290: pCube20 25
+    400292: pCube20 26
+    400294: pCube20 27
+    400296: pCube20 28
+    400298: pCube20 29
+    400300: pCube20 3
+    400302: pCube20 30
+    400304: pCube20 4
+    400306: pCube20 5
+    400308: pCube20 6
+    400310: pCube20 7
+    400312: pCube20 8
+    400314: pCube20 9
+    400316: pCube3
+    400318: pCube4
+    400320: pCube5
+    400322: pCube6
+    400324: pCube7
+    400326: pCube8
+    400328: pCube9
+    400330: pCylinder1
+    400332: pCylinder1 1
+    400334: pCylinder1 10
+    400336: pCylinder1 11
+    400338: pCylinder1 12
+    400340: pCylinder1 13
+    400342: pCylinder1 14
+    400344: pCylinder1 15
+    400346: pCylinder1 16
+    400348: pCylinder1 17
+    400350: pCylinder1 18
+    400352: pCylinder1 19
+    400354: pCylinder1 2
+    400356: pCylinder1 20
+    400358: pCylinder1 21
+    400360: pCylinder1 22
+    400362: pCylinder1 23
+    400364: pCylinder1 24
+    400366: pCylinder1 25
+    400368: pCylinder1 26
+    400370: pCylinder1 27
+    400372: pCylinder1 28
+    400374: pCylinder1 29
+    400376: pCylinder1 3
+    400378: pCylinder1 30
+    400380: pCylinder1 4
+    400382: pCylinder1 5
+    400384: pCylinder1 6
+    400386: pCylinder1 7
+    400388: pCylinder1 8
+    400390: pCylinder1 9
+    400392: Proscenium_and_stage
+    400394: Royal_box
+    400396: Royal_box1
+    400398: Royal_box2
+    400400: Stage_Floor
+    400402: Stage_Support_Face
+    400404: Theater_Floor
+    400406: transform1
+    400408: transform10
+    400410: transform11
+    400412: transform12
+    400414: transform13
+    400416: transform14
+    400418: transform15
+    400420: transform16
+    400422: transform17
+    400424: transform2
+    400426: transform3
+    400428: transform4
+    400430: transform5
+    400432: transform6
+    400434: transform7
+    400436: transform8
+    400438: transform9
+    400440: stand_in
+    2300000: Ceiling
+    2300002: chairs_first_row1
+    2300004: chairs_first_row10
+    2300006: chairs_first_row11
+    2300008: chairs_first_row12
+    2300010: chairs_first_row13
+    2300012: chairs_first_row2
+    2300014: chairs_first_row3
+    2300016: chairs_first_row4
+    2300018: chairs_first_row5
+    2300020: chairs_first_row6
+    2300022: chairs_first_row7
+    2300024: chairs_first_row8
+    2300026: chairs_first_row9
+    2300028: Column_Stage_Left
+    2300030: Column_Stage_Left1
+    2300032: Entrance2
+    2300034: extrudedSurface10
+    2300036: extrudedSurface11
+    2300038: extrudedSurface12
+    2300040: extrudedSurface13
+    2300042: extrudedSurface14
+    2300044: extrudedSurface15
+    2300046: extrudedSurface16
+    2300048: extrudedSurface17
+    2300050: extrudedSurface20
+    2300052: extrudedSurface21
+    2300054: extrudedSurface3
+    2300056: extrudedSurface4
+    2300058: extrudedSurface5
+    2300060: extrudedSurface6
+    2300062: extrudedSurface7
+    2300064: extrudedSurface8
+    2300066: extrudedSurface9
+    2300068: new_sides
+    2300070: nurbsToPoly10
+    2300072: nurbsToPoly11
+    2300074: nurbsToPoly12
+    2300076: nurbsToPoly13
+    2300078: nurbsToPoly14
+    2300080: nurbsToPoly15
+    2300082: nurbsToPoly3
+    2300084: nurbsToPoly5
+    2300086: nurbsToPoly6
+    2300088: nurbsToPoly7
+    2300090: nurbsToPoly8
+    2300092: nurbsToPoly9
+    2300094: pCube13
+    2300096: pCube14
+    2300098: pCube15
+    2300100: pCube16
+    2300102: pCube17
+    2300104: pCube18
+    2300106: pCube19
+    2300108: pCube20
+    2300110: pCube20 1
+    2300112: pCube20 10
+    2300114: pCube20 11
+    2300116: pCube20 12
+    2300118: pCube20 13
+    2300120: pCube20 14
+    2300122: pCube20 15
+    2300124: pCube20 16
+    2300126: pCube20 17
+    2300128: pCube20 18
+    2300130: pCube20 19
+    2300132: pCube20 2
+    2300134: pCube20 20
+    2300136: pCube20 21
+    2300138: pCube20 22
+    2300140: pCube20 23
+    2300142: pCube20 24
+    2300144: pCube20 25
+    2300146: pCube20 26
+    2300148: pCube20 27
+    2300150: pCube20 28
+    2300152: pCube20 29
+    2300154: pCube20 3
+    2300156: pCube20 30
+    2300158: pCube20 4
+    2300160: pCube20 5
+    2300162: pCube20 6
+    2300164: pCube20 7
+    2300166: pCube20 8
+    2300168: pCube20 9
+    2300170: pCylinder1
+    2300172: pCylinder1 1
+    2300174: pCylinder1 10
+    2300176: pCylinder1 11
+    2300178: pCylinder1 12
+    2300180: pCylinder1 13
+    2300182: pCylinder1 14
+    2300184: pCylinder1 15
+    2300186: pCylinder1 16
+    2300188: pCylinder1 17
+    2300190: pCylinder1 18
+    2300192: pCylinder1 19
+    2300194: pCylinder1 2
+    2300196: pCylinder1 20
+    2300198: pCylinder1 21
+    2300200: pCylinder1 22
+    2300202: pCylinder1 23
+    2300204: pCylinder1 24
+    2300206: pCylinder1 25
+    2300208: pCylinder1 26
+    2300210: pCylinder1 27
+    2300212: pCylinder1 28
+    2300214: pCylinder1 29
+    2300216: pCylinder1 3
+    2300218: pCylinder1 30
+    2300220: pCylinder1 4
+    2300222: pCylinder1 5
+    2300224: pCylinder1 6
+    2300226: pCylinder1 7
+    2300228: pCylinder1 8
+    2300230: pCylinder1 9
+    2300232: Royal_box2
+    2300234: Stage_Floor
+    2300236: Stage_Support_Face
+    2300238: Theater_Floor
+    2300240: stand_in
+    3300000: Ceiling
+    3300002: chairs_first_row1
+    3300004: chairs_first_row10
+    3300006: chairs_first_row11
+    3300008: chairs_first_row12
+    3300010: chairs_first_row13
+    3300012: chairs_first_row2
+    3300014: chairs_first_row3
+    3300016: chairs_first_row4
+    3300018: chairs_first_row5
+    3300020: chairs_first_row6
+    3300022: chairs_first_row7
+    3300024: chairs_first_row8
+    3300026: chairs_first_row9
+    3300028: Column_Stage_Left
+    3300030: Column_Stage_Left1
+    3300032: Entrance2
+    3300034: extrudedSurface10
+    3300036: extrudedSurface11
+    3300038: extrudedSurface12
+    3300040: extrudedSurface13
+    3300042: extrudedSurface14
+    3300044: extrudedSurface15
+    3300046: extrudedSurface16
+    3300048: extrudedSurface17
+    3300050: extrudedSurface20
+    3300052: extrudedSurface21
+    3300054: extrudedSurface3
+    3300056: extrudedSurface4
+    3300058: extrudedSurface5
+    3300060: extrudedSurface6
+    3300062: extrudedSurface7
+    3300064: extrudedSurface8
+    3300066: extrudedSurface9
+    3300068: new_sides
+    3300070: nurbsToPoly10
+    3300072: nurbsToPoly11
+    3300074: nurbsToPoly12
+    3300076: nurbsToPoly13
+    3300078: nurbsToPoly14
+    3300080: nurbsToPoly15
+    3300082: nurbsToPoly3
+    3300084: nurbsToPoly5
+    3300086: nurbsToPoly6
+    3300088: nurbsToPoly7
+    3300090: nurbsToPoly8
+    3300092: nurbsToPoly9
+    3300094: pCube13
+    3300096: pCube14
+    3300098: pCube15
+    3300100: pCube16
+    3300102: pCube17
+    3300104: pCube18
+    3300106: pCube19
+    3300108: pCube20
+    3300110: pCube20 1
+    3300112: pCube20 10
+    3300114: pCube20 11
+    3300116: pCube20 12
+    3300118: pCube20 13
+    3300120: pCube20 14
+    3300122: pCube20 15
+    3300124: pCube20 16
+    3300126: pCube20 17
+    3300128: pCube20 18
+    3300130: pCube20 19
+    3300132: pCube20 2
+    3300134: pCube20 20
+    3300136: pCube20 21
+    3300138: pCube20 22
+    3300140: pCube20 23
+    3300142: pCube20 24
+    3300144: pCube20 25
+    3300146: pCube20 26
+    3300148: pCube20 27
+    3300150: pCube20 28
+    3300152: pCube20 29
+    3300154: pCube20 3
+    3300156: pCube20 30
+    3300158: pCube20 4
+    3300160: pCube20 5
+    3300162: pCube20 6
+    3300164: pCube20 7
+    3300166: pCube20 8
+    3300168: pCube20 9
+    3300170: pCylinder1
+    3300172: pCylinder1 1
+    3300174: pCylinder1 10
+    3300176: pCylinder1 11
+    3300178: pCylinder1 12
+    3300180: pCylinder1 13
+    3300182: pCylinder1 14
+    3300184: pCylinder1 15
+    3300186: pCylinder1 16
+    3300188: pCylinder1 17
+    3300190: pCylinder1 18
+    3300192: pCylinder1 19
+    3300194: pCylinder1 2
+    3300196: pCylinder1 20
+    3300198: pCylinder1 21
+    3300200: pCylinder1 22
+    3300202: pCylinder1 23
+    3300204: pCylinder1 24
+    3300206: pCylinder1 25
+    3300208: pCylinder1 26
+    3300210: pCylinder1 27
+    3300212: pCylinder1 28
+    3300214: pCylinder1 29
+    3300216: pCylinder1 3
+    3300218: pCylinder1 30
+    3300220: pCylinder1 4
+    3300222: pCylinder1 5
+    3300224: pCylinder1 6
+    3300226: pCylinder1 7
+    3300228: pCylinder1 8
+    3300230: pCylinder1 9
+    3300232: Royal_box2
+    3300234: Stage_Floor
+    3300236: Stage_Support_Face
+    3300238: Theater_Floor
+    3300240: stand_in
+    4300000: nurbsToPoly3
+    4300002: nurbsToPoly5
+    4300004: nurbsToPoly6
+    4300006: nurbsToPoly7
+    4300008: nurbsToPoly8
+    4300010: nurbsToPoly9
+    4300012: nurbsToPoly10
+    4300014: nurbsToPoly11
+    4300016: nurbsToPoly12
+    4300018: nurbsToPoly13
+    4300020: nurbsToPoly14
+    4300022: nurbsToPoly15
+    4300024: pCube14
+    4300026: pCube15
+    4300028: pCube13
+    4300030: pCube16
+    4300032: pCube17
+    4300034: pCube18
+    4300036: pCube19
+    4300038: Theater_Floor
+    4300040: Ceiling
+    4300042: new_sides
+    4300044: Column_Stage_Left
+    4300046: Stage_Floor
+    4300048: Column_Stage_Left1
+    4300050: Stage_Support_Face
+    4300052: chairs_first_row1
+    4300054: chairs_first_row2
+    4300056: chairs_first_row3
+    4300058: chairs_first_row4
+    4300060: chairs_first_row5
+    4300062: chairs_first_row6
+    4300064: chairs_first_row7
+    4300066: chairs_first_row8
+    4300068: chairs_first_row9
+    4300070: chairs_first_row10
+    4300072: chairs_first_row11
+    4300074: chairs_first_row12
+    4300076: chairs_first_row13
+    4300078: extrudedSurface4
+    4300080: extrudedSurface3
+    4300082: extrudedSurface5
+    4300084: extrudedSurface6
+    4300086: extrudedSurface7
+    4300088: extrudedSurface8
+    4300090: extrudedSurface9
+    4300092: extrudedSurface10
+    4300094: extrudedSurface11
+    4300096: extrudedSurface12
+    4300098: extrudedSurface13
+    4300100: extrudedSurface14
+    4300102: extrudedSurface15
+    4300104: extrudedSurface16
+    4300106: extrudedSurface17
+    4300108: extrudedSurface20
+    4300110: extrudedSurface21
+    4300112: Entrance2
+    4300114: Royal_box2
+    4300116: pCylinder1
+    4300118: pCube20
+    4300120: pCylinder1
+    4300122: pCube20
+    4300124: pCylinder1
+    4300126: pCube20
+    4300128: pCylinder1
+    4300130: pCube20
+    4300132: pCylinder1
+    4300134: pCube20
+    4300136: pCylinder1
+    4300138: pCube20
+    4300140: pCylinder1
+    4300142: pCube20
+    4300144: pCylinder1
+    4300146: pCube20
+    4300148: pCylinder1
+    4300150: pCube20
+    4300152: pCylinder1
+    4300154: pCube20
+    4300156: pCylinder1
+    4300158: pCube20
+    4300160: pCylinder1
+    4300162: pCube20
+    4300164: pCylinder1
+    4300166: pCube20
+    4300168: pCylinder1
+    4300170: pCube20
+    4300172: pCylinder1
+    4300174: pCube20
+    4300176: pCylinder1
+    4300178: pCube20
+    4300180: pCylinder1
+    4300182: pCube20
+    4300184: pCylinder1
+    4300186: pCube20
+    4300188: pCylinder1
+    4300190: pCube20
+    4300192: pCylinder1
+    4300194: pCube20
+    4300196: pCylinder1
+    4300198: pCube20
+    4300200: pCylinder1
+    4300202: pCube20
+    4300204: pCylinder1
+    4300206: pCube20
+    4300208: pCylinder1
+    4300210: pCube20
+    4300212: pCylinder1
+    4300214: pCube20
+    4300216: pCylinder1
+    4300218: pCube20
+    4300220: pCylinder1
+    4300222: pCube20
+    4300224: pCylinder1
+    4300226: pCube20
+    4300228: pCylinder1
+    4300230: pCube20
+    4300232: pCylinder1
+    4300234: pCube20
+    4300236: pCylinder1
+    4300238: pCube20
+    4300240: stand_in
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 600
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
