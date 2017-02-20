@@ -6,7 +6,7 @@ public class ChosenHeadsetAssign : MonoBehaviour
 
     Holojam.Tools.ActorManager manager;
     ChosenHeadset headset;
-	Holojam.Tools.Phonecontroller phonecontroller;
+	//Holojam.Tools.Phonecontroller phonecontroller;
 	string[] controllertags = { "controller0",
 								"controller1",
 								"controller2",
@@ -15,12 +15,12 @@ public class ChosenHeadsetAssign : MonoBehaviour
     void Start()
     {
         manager = GameObject.Find("ActorManager").gameObject.GetComponent<Holojam.Tools.ActorManager>();
-		phonecontroller = GameObject.Find ("Controller").gameObject.GetComponent<Holojam.Tools.Phonecontroller> ();
+		//phonecontroller = GameObject.Find ("Controller").gameObject.GetComponent<Holojam.Tools.Phonecontroller> ();
         if (GameObject.Find("ChosenHeadset"))
         {
             headset = GameObject.Find("ChosenHeadset").gameObject.GetComponent<ChosenHeadset>();
-			phonecontroller.label = controllertags [headset.headsetInt - 1];
-			phonecontroller.index = headset.headsetInt;
+			//phonecontroller.label = controllertags [headset.headsetInt - 1];
+			//phonecontroller.index = headset.headsetInt;
             manager.buildTag = headset.whichHeadset;
             manager.reindex = true;
         }

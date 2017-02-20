@@ -85,7 +85,7 @@ namespace Holojam.Tools{
          mesh.triangles = tris.ToArray();
          mesh.uv = uvs.ToArray();
 
-         mesh.Optimize();
+         ;
          mesh.RecalculateNormals();
 
          r.material=material;
